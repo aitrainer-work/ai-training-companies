@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T05:40:18.873Z",
+  "generated_at": "2026-09-29T14:29:08.496Z",
   "title": "AI training companies",
   "description": "Companies that pay people to train and evaluate AI models: who they are, how they hire, how they pay, and what their live listings pay. Curated fields are checked against each company's own pages; see sources per record.",
   "source_url": "https://aitrainer.work/open-data/companies",
@@ -13,9 +13,9 @@
   "notes": [
     "Curated fields are null until checked against a primary source. Null means \"not yet verified\" or \"the company does not publish it\".",
     "pay_observed_hourly_usd uses listings that state an hourly rate; estimates are excluded. Shown only with 10+ listings.",
-    "trustpilot_sample is the average of reviews we collected on scraped_at, not Trustpilot's TrustScore."
+    "trustpilot_organic is the mean rating of organic (not company-invited) Trustpilot reviews from the aitrainer.work Trustpilot study (doi.org/10.5281/zenodo.23018069), only for platforms with 30+ organic reviews. It is not Trustpilot's TrustScore."
   ],
-  "count": 55,
+  "count": 54,
   "companies": [
     {
       "id": "afterquery",
@@ -56,7 +56,7 @@
       ],
       "listings": {
         "active": 206,
-        "last_90d": 257,
+        "last_90d": 258,
         "first_seen": "2026-06-08",
         "last_seen": "2026-09-27"
       },
@@ -88,7 +88,7 @@
           "listings": 21
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/afterquery",
       "sources": {
         "website": "https://afterquery.com",
@@ -143,7 +143,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://alignedhq.ai/",
@@ -217,11 +217,16 @@
           "listings": 7
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 4.81,
-        "reviews_sampled": 280,
-        "url": "https://www.trustpilot.com/review/alignerr.com",
-        "scraped_at": "2026-01-22"
+      "trustpilot_organic": {
+        "mean": 4.61,
+        "ci95": [
+          4.59,
+          4.63
+        ],
+        "organic_share": 0.87,
+        "reviews_collected": 567,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/alignerr",
       "sources": {
@@ -284,7 +289,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://appen.com/about-us/",
@@ -337,7 +342,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.atlascapture.io/",
@@ -386,7 +391,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.getblend.com/",
@@ -480,7 +485,7 @@
           "listings": 1
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/claru",
       "sources": {
         "website": "https://claru.ai",
@@ -540,7 +545,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.clickworker.com/",
@@ -599,7 +604,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.cloudfactory.com/about",
@@ -650,7 +655,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.cntxt.tech/",
@@ -715,11 +720,16 @@
       },
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": {
-        "avg_rating": 4.25,
-        "reviews_sampled": 264,
-        "url": "https://www.trustpilot.com/review/dataannotation.tech",
-        "scraped_at": "2026-01-22"
+      "trustpilot_organic": {
+        "mean": 2.21,
+        "ci95": [
+          1.79,
+          2.55
+        ],
+        "organic_share": 0.14,
+        "reviews_collected": 604,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/dataannotation-tech",
       "sources": {
@@ -773,7 +783,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://datamundi.ai/",
@@ -825,7 +835,7 @@
       ],
       "listings": {
         "active": 258,
-        "last_90d": 324,
+        "last_90d": 367,
         "first_seen": "2026-03-23",
         "last_seen": "2026-09-28"
       },
@@ -857,11 +867,16 @@
           "listings": 13
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 4,
-        "reviews_sampled": 80,
-        "url": "https://www.trustpilot.com/review/askethos.com",
-        "scraped_at": "2026-08-20"
+      "trustpilot_organic": {
+        "mean": 3.02,
+        "ci95": [
+          2.68,
+          3.29
+        ],
+        "organic_share": 0.29,
+        "reviews_collected": 214,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/ethos",
       "sources": {
@@ -955,12 +970,7 @@
           "listings": 12
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 1.5,
-        "reviews_sampled": 8,
-        "url": "https://www.trustpilot.com/review/joinhandshake.com",
-        "scraped_at": "2026-01-22"
-      },
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/handshake",
       "sources": {
         "website": "https://joinhandshake.com/ai",
@@ -1020,7 +1030,7 @@
       },
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/imerit",
       "sources": {
         "website": "https://imerit.ai/",
@@ -1070,14 +1080,35 @@
         "No pay rates published on the careers homepage"
       ],
       "listings": {
-        "active": 0,
-        "last_90d": 104,
+        "active": 103,
+        "last_90d": 103,
         "first_seen": "2026-04-17",
-        "last_seen": "2026-08-17"
+        "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": null,
-      "top_domains": [],
-      "trustpilot_sample": null,
+      "top_domains": [
+        {
+          "domain": "Data Science",
+          "listings": 79
+        },
+        {
+          "domain": "STEM",
+          "listings": 8
+        },
+        {
+          "domain": "Business",
+          "listings": 6
+        },
+        {
+          "domain": "Generalist",
+          "listings": 4
+        },
+        {
+          "domain": "Languages",
+          "listings": 3
+        }
+      ],
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/innodata",
       "sources": {
         "website": "https://www.innodata.com",
@@ -1123,7 +1154,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://invisibletech.ai/",
@@ -1165,7 +1196,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.labela.ai/",
@@ -1214,7 +1245,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://lilt.com",
@@ -1267,7 +1298,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.lionbridge.com/join-our-team/",
@@ -1318,7 +1349,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.luel.ai",
@@ -1372,7 +1403,7 @@
       ],
       "listings": {
         "active": 1397,
-        "last_90d": 1511,
+        "last_90d": 1524,
         "first_seen": "2026-01-02",
         "last_seen": "2026-09-29"
       },
@@ -1404,11 +1435,16 @@
           "listings": 101
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 4.68,
-        "reviews_sampled": 272,
-        "url": "https://www.trustpilot.com/review/mercor.io",
-        "scraped_at": "2026-01-22"
+      "trustpilot_organic": {
+        "mean": 2.13,
+        "ci95": [
+          1.73,
+          2.47
+        ],
+        "organic_share": 0.16,
+        "reviews_collected": 413,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/mercor",
       "sources": {
@@ -1463,7 +1499,7 @@
       ],
       "listings": {
         "active": 494,
-        "last_90d": 508,
+        "last_90d": 494,
         "first_seen": "2026-08-10",
         "last_seen": "2026-09-26"
       },
@@ -1490,7 +1526,7 @@
           "listings": 30
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/meridial-invisible",
       "sources": {
         "website": "https://www.meridial.ai",
@@ -1544,21 +1580,21 @@
         "You sign a contractor agreement through Deel"
       ],
       "listings": {
-        "active": 402,
-        "last_90d": 771,
+        "active": 398,
+        "last_90d": 838,
         "first_seen": "2026-01-03",
         "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": {
-        "median": 63,
+        "median": 60,
         "p25": 35,
         "p75": 105,
-        "n": 333
+        "n": 329
       },
       "top_domains": [
         {
           "domain": "Generalist",
-          "listings": 85
+          "listings": 83
         },
         {
           "domain": "STEM",
@@ -1577,11 +1613,16 @@
           "listings": 40
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 4.75,
-        "reviews_sampled": 276,
-        "url": "https://www.trustpilot.com/review/micro1.ai",
-        "scraped_at": "2026-01-22"
+      "trustpilot_organic": {
+        "mean": 3.29,
+        "ci95": [
+          1.78,
+          3.93
+        ],
+        "organic_share": 0.03,
+        "reviews_collected": 895,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/micro1",
       "sources": {
@@ -1675,11 +1716,16 @@
           "listings": 6
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 3.85,
-        "reviews_sampled": 244,
-        "url": "https://www.trustpilot.com/review/mindrift.ai",
-        "scraped_at": "2026-01-22"
+      "trustpilot_organic": {
+        "mean": 1.5,
+        "ci95": [
+          1.23,
+          1.8
+        ],
+        "organic_share": 0.1,
+        "reviews_collected": 665,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/mindrift",
       "sources": {
@@ -1741,7 +1787,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.oneforma.com",
@@ -1814,11 +1860,16 @@
           "listings": 3
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 4.21,
-        "reviews_sampled": 272,
-        "url": "https://www.trustpilot.com/review/outlier.ai",
-        "scraped_at": "2026-01-22"
+      "trustpilot_organic": {
+        "mean": 1.21,
+        "ci95": [
+          1.13,
+          1.34
+        ],
+        "organic_share": 0.22,
+        "reviews_collected": 716,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
       },
       "profile_url": "https://aitrainer.work/platforms/outlier-ai",
       "sources": {
@@ -1869,7 +1920,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://pareto.ai",
@@ -1925,7 +1976,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.pasifloraai.com",
@@ -1977,7 +2028,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://pila8.com/",
@@ -2034,7 +2085,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.prolific.com",
@@ -2088,7 +2139,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://remotasks.com",
@@ -2176,7 +2227,17 @@
           "listings": 1
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": {
+        "mean": 3.71,
+        "ci95": [
+          3.59,
+          3.82
+        ],
+        "organic_share": 0.82,
+        "reviews_collected": 94,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
+      },
       "profile_url": "https://aitrainer.work/platforms/remo-experts",
       "sources": {
         "website": "https://rex.zone",
@@ -2236,7 +2297,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://risedatalabs.com",
@@ -2296,7 +2357,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://rustlabs.ai",
@@ -2351,14 +2412,23 @@
         "Work comes as email invitations to projects you're matched to"
       ],
       "listings": {
-        "active": 0,
-        "last_90d": 65,
-        "first_seen": "2025-03-14",
-        "last_seen": "2026-08-17"
+        "active": 46,
+        "last_90d": 46,
+        "first_seen": "2024-10-14",
+        "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": null,
-      "top_domains": [],
-      "trustpilot_sample": null,
+      "top_domains": [
+        {
+          "domain": "Data Science",
+          "listings": 25
+        },
+        {
+          "domain": "Languages",
+          "listings": 21
+        }
+      ],
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/rws-trainai",
       "sources": {
         "website": "https://www.rws.com/about/",
@@ -2406,7 +2476,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://scale.com",
@@ -2454,7 +2524,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://sigma.ai",
@@ -2502,7 +2572,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.silencio.network/",
@@ -2557,8 +2627,8 @@
       ],
       "listings": {
         "active": 260,
-        "last_90d": 275,
-        "first_seen": "2026-03-31",
+        "last_90d": 261,
+        "first_seen": "2026-02-09",
         "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": null,
@@ -2584,7 +2654,7 @@
           "listings": 22
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/sme-careers",
       "sources": {
         "website": "https://sme.careers/",
@@ -2637,7 +2707,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://snorkel.ai",
@@ -2717,7 +2787,7 @@
           "listings": 1
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/sovrano-ai",
       "sources": {
         "website": "https://sovrano.ai",
@@ -2777,7 +2847,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://joinstellar.ai",
@@ -2835,7 +2905,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/surge-ai",
       "sources": {
         "website": "https://surgehq.ai",
@@ -2849,62 +2919,6 @@
         "cons": "https://surgehq.ai/consultant-network"
       },
       "last_checked": "2026-09-29"
-    },
-    {
-      "id": "taskverse",
-      "name": "TaskVerse",
-      "website": "https://www.taskverse.com",
-      "operator": "TaskUs",
-      "hq": null,
-      "hq_country": null,
-      "founded": null,
-      "headcount": null,
-      "work_types": [
-        "data_labeling",
-        "image_video_annotation",
-        "audio_speech",
-        "content_moderation"
-      ],
-      "classification": "contractor",
-      "payout_frequency": "weekly",
-      "payment_methods": [
-        "paypal"
-      ],
-      "eligible_countries": "Registration opens country by country; unsupported countries get a waitlist",
-      "hiring_steps": [
-        "application"
-      ],
-      "stated_pay": null,
-      "description": "TaskVerse is TaskUs's freelance task platform. Taskers pick up per-task work such as annotating images, recording speech, tagging words and transcribing audio. Approved tasks are paid weekly on Thursdays (US time) to PayPal.",
-      "pros": [
-        "No special skills needed to sign up",
-        "Pays weekly on Thursdays for approved tasks",
-        "Work on your own schedule from anywhere"
-      ],
-      "cons": [
-        "PayPal is the only payout method listed",
-        "Registration is closed in some countries",
-        "Tasks aren't guaranteed after sign-up"
-      ],
-      "listings": null,
-      "pay_observed_hourly_usd": null,
-      "top_domains": [],
-      "trustpilot_sample": null,
-      "profile_url": null,
-      "sources": {
-        "website": "https://www.taskverse.com",
-        "operator": "https://www.taskverse.com",
-        "work_types": "https://www.taskverse.com",
-        "classification": "https://www.taskverse.com",
-        "payout_frequency": "https://www.taskverse.com/support",
-        "payment_methods": "https://www.taskverse.com/support",
-        "eligible_countries": "https://www.taskverse.com",
-        "hiring_steps": "https://www.taskverse.com",
-        "description": "https://www.taskverse.com",
-        "pros": "https://www.taskverse.com",
-        "cons": "https://www.taskverse.com"
-      },
-      "last_checked": "2026-09-28"
     },
     {
       "id": "telus",
@@ -2943,14 +2957,40 @@
         "Content can include sensitive or upsetting material"
       ],
       "listings": {
-        "active": 0,
-        "last_90d": 133,
+        "active": 141,
+        "last_90d": 141,
         "first_seen": "2024-11-20",
-        "last_seen": "2026-08-17"
+        "last_seen": "2026-09-29"
       },
-      "pay_observed_hourly_usd": null,
-      "top_domains": [],
-      "trustpilot_sample": null,
+      "pay_observed_hourly_usd": {
+        "median": 10,
+        "p25": 8,
+        "p75": 18,
+        "n": 124
+      },
+      "top_domains": [
+        {
+          "domain": "Data Science",
+          "listings": 50
+        },
+        {
+          "domain": "Generalist",
+          "listings": 22
+        },
+        {
+          "domain": "Writing",
+          "listings": 19
+        },
+        {
+          "domain": "Languages",
+          "listings": 13
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 11
+        }
+      ],
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/telus-digital-ai-community",
       "sources": {
         "website": "https://www.telusdigital.com",
@@ -3007,7 +3047,7 @@
       ],
       "listings": {
         "active": 21,
-        "last_90d": 30,
+        "last_90d": 171,
         "first_seen": "2026-07-21",
         "last_seen": "2026-09-29"
       },
@@ -3039,7 +3079,17 @@
           "listings": 2
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": {
+        "mean": 3.57,
+        "ci95": [
+          2.5,
+          4.09
+        ],
+        "organic_share": 0.16,
+        "reviews_collected": 43,
+        "collected": "2026-09-25",
+        "source": "https://doi.org/10.5281/zenodo.23018069"
+      },
       "profile_url": "https://aitrainer.work/platforms/terac",
       "sources": {
         "website": "https://terac.com",
@@ -3095,7 +3145,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.transperfect.com/about",
@@ -3148,7 +3198,7 @@
       ],
       "listings": {
         "active": 359,
-        "last_90d": 474,
+        "last_90d": 478,
         "first_seen": "2026-03-10",
         "last_seen": "2026-09-28"
       },
@@ -3175,12 +3225,7 @@
           "listings": 14
         }
       ],
-      "trustpilot_sample": {
-        "avg_rating": 4.33,
-        "reviews_sampled": 216,
-        "url": "https://www.trustpilot.com/review/turing.com",
-        "scraped_at": "2026-02-02"
-      },
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/turing",
       "sources": {
         "website": "https://www.turing.com/jobs",
@@ -3240,7 +3285,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.uber.com/us/en/ai-solutions/",
@@ -3295,7 +3340,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://www.verita-ai.com/for-experts",
@@ -3372,7 +3417,7 @@
           "listings": 1
         }
       ],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/vetto",
       "sources": {
         "website": "https://www.vetto.ai",
@@ -3430,7 +3475,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://welodata.ai/join-the-community/",
@@ -3495,7 +3540,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://workada.com",
@@ -3560,7 +3605,7 @@
       "listings": null,
       "pay_observed_hourly_usd": null,
       "top_domains": [],
-      "trustpilot_sample": null,
+      "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
         "website": "https://workbolt.ai/",

@@ -2,7 +2,7 @@
 
 
 
-55 companies that pay people to train and evaluate AI models: expert networks, crowdwork platforms and data vendors. One record per company, covering how it hires, how it pays, what work it offers and what its job listings pay.
+54 companies that pay people to train and evaluate AI models: expert networks, crowdwork platforms and data vendors. One record per company, covering how it hires, how it pays, what work it offers and what its job listings pay.
 
 Version 2026.09, released 2026-09-29. Browse and filter it online: [AI training companies dataset on aitrainer.work](https://aitrainer.work/open-data/companies "AI training companies dataset: hiring, pay and work facts").
 
@@ -45,7 +45,7 @@ Each record has two kinds of fields.
 | `listings` | object or null | `active`, `last_90d`, `first_seen`, `last_seen` |
 | `pay_observed_hourly_usd` | object or null | `{median, p25, p75, n}` from listings that state an hourly rate. Estimated rates are excluded. Shown only with 10 or more listings |
 | `top_domains` | object[] | Most common fields of work in the company's listings, with counts |
-| `trustpilot_sample` | object or null | `{avg_rating, reviews_sampled, url, scraped_at}`: the average of the reviews collected on `scraped_at`, which is not Trustpilot's TrustScore |
+| `trustpilot_organic` | object or null | `{mean, ci95, organic_share, reviews_collected, collected, source}`: mean rating of organic (not company-invited) Trustpilot reviews from the [aitrainer.work Trustpilot study](https://doi.org/10.5281/zenodo.23018069 "What Trustpilot Scores Measure for AI Training Platforms"). Only platforms with 30+ organic reviews. Not Trustpilot's TrustScore |
 | `profile_url` | URL or null | Company profile on aitrainer.work |
 | `sources` | object | Source URL for each checked field |
 | `last_checked` | date | Date the record was last checked |
@@ -54,27 +54,27 @@ Each record has two kinds of fields.
 
 | Field | Companies with a value |
 |---|---|
-| Companies | 55 |
+| Companies | 54 |
 | Headcount band | 52 |
-| Worker classification | 32 |
-| Payout frequency | 34 |
-| Hiring steps | 44 |
-| Payment methods | 27 |
-| Eligible countries | 26 |
-| Parent or operator | 18 |
+| Worker classification | 31 |
+| Payout frequency | 33 |
+| Hiring steps | 43 |
+| Payment methods | 26 |
+| Eligible countries | 25 |
+| Parent or operator | 17 |
 | Stated pay | 17 |
 | Headquarters | 15 |
 | Founding year | 13 |
 | Listing statistics | 21 |
-| Observed hourly pay (10+ listings) | 9 |
-| Trustpilot sample | 9 |
+| Observed hourly pay (10+ listings) | 10 |
+| Trustpilot organic rating (30+ organic reviews) | 9 |
 
 ## Limitations
 
 - The dataset covers the companies aitrainer.work tracks, not every company in the field. AI labs hiring employees and general freelance marketplaces are out of scope.
 - Crowd platforms such as Outlier and OneForma pick LinkedIn size bands that appear to count contractors, so their headcount is not comparable with that of smaller firms.
 - Listing statistics reflect what platforms post publicly. A company that hires mostly through invitations will show few listings.
-- `trustpilot_sample` was collected in January 2026 and is not refreshed monthly.
+- `trustpilot_organic` comes from reviews collected on 2026-09-25 and is refreshed only when a new wave of the Trustpilot study is published, not monthly.
 
 ## Updates
 

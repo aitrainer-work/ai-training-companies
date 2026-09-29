@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "AI Training Companies Dataset",
-  "description": "<p>This dataset records the companies that pay people to train and evaluate AI models, through tasks such as writing and rating model responses, red teaming, annotating images and text, and recording speech. Most hire this workforce as independent contractors through online platforms. The 2026.09 version covers 55 companies, including expert networks, crowdwork platforms and data vendors, with one record per company.</p>\n<p>Each record combines facts checked by hand against a primary source with statistics computed from job listings. The checked facts are headquarters, founding year, parent company, headcount band, types of work, worker classification, payout frequency, payment methods, eligible countries, hiring steps and pay as the company itself states it. Sources are the company's own pages, filings, news reports for founding year and parent company, and, for headcount, the size band on the company's public LinkedIn page. Each record gives the source URL for every checked field, and a field the company does not publish is null. The computed statistics come from listings observed by aitrainer.work on the 21 platforms it tracks: active listings, listings in the last 90 days, median stated hourly pay (estimated rates excluded, 10 or more listings) and the most common fields of work.</p>\n<p>Coverage varies by field: headcount band is known for 52 companies, hiring steps for 44, founding year for 13 and observed hourly pay for 9. The dataset covers the companies aitrainer.work tracks, not every company in the field, and excludes AI labs hiring employees and general freelance marketplaces. Crowd platforms report LinkedIn size bands that appear to include contractors.</p>\n<p>Files: companies.json (records with nested fields and dataset notes), companies.csv (one row per company), README.md with field definitions, and LICENSE. A new version is released each month, and the all-versions DOI resolves to the latest.</p>\n<p>Competing interests: aitrainer.work has referral agreements with some of the companies in this dataset.</p>\n<p>Field definitions and online edition: <a href=\"https://aitrainer.work/open-data/companies\" title=\"AI training companies dataset: hiring, pay and work facts\">AI training companies dataset</a>. Related data: <a href=\"https://aitrainer.work/open-data\" title=\"Open data: AI training job market statistics\">AI training job market statistics</a>.</p>",
+  "description": "<p>This dataset records the companies that pay people to train and evaluate AI models, through tasks such as writing and rating model responses, red teaming, annotating images and text, and recording speech. Most hire this workforce as independent contractors through online platforms. The 2026.09 version covers 54 companies, including expert networks, crowdwork platforms and data vendors, with one record per company.</p>\n<p>Each record combines facts checked by hand against a primary source with statistics computed from job listings. The checked facts are headquarters, founding year, parent company, headcount band, types of work, worker classification, payout frequency, payment methods, eligible countries, hiring steps and pay as the company itself states it. Sources are the company's own pages, filings, news reports for founding year and parent company, and, for headcount, the size band on the company's public LinkedIn page. Each record gives the source URL for every checked field, and a field the company does not publish is null. The computed statistics come from listings observed by aitrainer.work on the 21 platforms it tracks: active listings, listings in the last 90 days, median stated hourly pay (estimated rates excluded, 10 or more listings) and the most common fields of work. For 9 platforms, records also carry the mean rating of organic (not company-invited) Trustpilot reviews from a separate aitrainer.work study.</p>\n<p>Coverage varies by field: headcount band is known for 52 companies, hiring steps for 43, founding year for 13 and observed hourly pay for 10. The dataset covers the companies aitrainer.work tracks, not every company in the field, and excludes AI labs hiring employees and general freelance marketplaces. Crowd platforms report LinkedIn size bands that appear to include contractors.</p>\n<p>Files: companies.json (records with nested fields and dataset notes), companies.csv (one row per company), README.md with field definitions, and LICENSE. A new version is released each month, and the all-versions DOI resolves to the latest.</p>\n<p>Competing interests: aitrainer.work has referral agreements with some of the companies in this dataset.</p>\n<p>Field definitions and online edition: <a href=\"https://aitrainer.work/open-data/companies\" title=\"AI training companies dataset: hiring, pay and work facts\">AI training companies dataset</a>. Related data: <a href=\"https://aitrainer.work/open-data\" title=\"Open data: AI training job market statistics\">AI training job market statistics</a>.</p>",
   "creators": [
     {
       "name": "Romeo, Pietro",
@@ -30,7 +30,7 @@
   "dates": [
     {
       "type": "Collected",
-      "start": "2024-11-20",
+      "start": "2024-10-14",
       "end": "2026-09-29",
       "description": "Job listing observation window; curated facts checked in the month of release"
     }
@@ -40,6 +40,11 @@
       "identifier": "https://aitrainer.work/open-data/companies",
       "relation": "isVariantFormOf",
       "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.23018069",
+      "relation": "references",
+      "resource_type": "publication-report"
     }
   ]
 }
