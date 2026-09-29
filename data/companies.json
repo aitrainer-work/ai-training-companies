@@ -1,0 +1,3583 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-29T05:40:18.873Z",
+  "title": "AI training companies",
+  "description": "Companies that pay people to train and evaluate AI models: who they are, how they hire, how they pay, and what their live listings pay. Curated fields are checked against each company's own pages; see sources per record.",
+  "source_url": "https://aitrainer.work/open-data/companies",
+  "documentation": "https://aitrainer.work/open-data/companies",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from aitrainer.work/open-data/companies, licensed under CC BY 4.0 (creativecommons.org/licenses/by/4.0)"
+  },
+  "notes": [
+    "Curated fields are null until checked against a primary source. Null means \"not yet verified\" or \"the company does not publish it\".",
+    "pay_observed_hourly_usd uses listings that state an hourly rate; estimates are excluded. Shown only with 10+ listings.",
+    "trustpilot_sample is the average of reviews we collected on scraped_at, not Trustpilot's TrustScore."
+  ],
+  "count": 55,
+  "companies": [
+    {
+      "id": "afterquery",
+      "name": "AfterQuery",
+      "website": "https://afterquery.com",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": "51-200",
+      "work_types": [
+        "expert_data",
+        "rlhf",
+        "coding"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "stripe"
+      ],
+      "eligible_countries": "95 countries where Stripe pays out; 48 listed as unsupported, including Brazil, Nigeria, Egypt, Japan and China",
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "AfterQuery is an applied research lab that turns expert work into AI training data: fine-tuning examples, reasoning traces, grading rubrics, agent environments and computer-use demonstrations. It works with domain experts to capture how they reason through real tasks.",
+      "pros": [
+        "Paid every Friday for the prior week's approved work",
+        "No fees from AfterQuery on payouts",
+        "Track every payout in Stripe or your Earnings dashboard"
+      ],
+      "cons": [
+        "Assessments are unpaid, and each pool's assessment can be taken once",
+        "There's no pass or fail notice; you hear back when a matching project comes up",
+        "Stripe is the only payout method, and the first payout has a 7-day hold"
+      ],
+      "listings": {
+        "active": 206,
+        "last_90d": 257,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-09-27"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 85,
+        "p25": 70,
+        "p75": 112,
+        "n": 162
+      },
+      "top_domains": [
+        {
+          "domain": "Languages",
+          "listings": 50
+        },
+        {
+          "domain": "STEM",
+          "listings": 26
+        },
+        {
+          "domain": "Generalist",
+          "listings": 26
+        },
+        {
+          "domain": "Business",
+          "listings": 21
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 21
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/afterquery",
+      "sources": {
+        "website": "https://afterquery.com",
+        "hq": "https://afterquery.com/careers",
+        "hq_country": "https://afterquery.com/careers",
+        "headcount": "https://www.linkedin.com/company/afterquery/",
+        "work_types": "https://www.afterquery.com/",
+        "classification": "https://docs.afterquery.com/articles/about/contract-work",
+        "payout_frequency": "https://docs.afterquery.com/articles/payments-taxes/payment-setup",
+        "payment_methods": "https://docs.afterquery.com/articles/payments-taxes/payment-setup",
+        "eligible_countries": "https://docs.afterquery.com/articles/payments-taxes/payment-countries",
+        "hiring_steps": "https://docs.afterquery.com/articles/onboarding/complete-your-onboarding",
+        "description": "https://www.afterquery.com/",
+        "pros": "https://docs.afterquery.com/articles/payments-taxes/payment-setup",
+        "cons": "https://docs.afterquery.com/articles/onboarding/assessments"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "aligned-labs",
+      "name": "Aligned Labs",
+      "website": "https://alignedhq.ai",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "expert_data",
+        "rlhf",
+        "model_evaluation",
+        "red_teaming"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "Aligned Labs, founded by ex-Google staff, matches PhDs and senior professionals to AI lab projects. You'll write novel training data, give RLHF feedback and evaluate model outputs in your field, and you set your own hourly rate.",
+      "pros": [
+        "You set your own hourly rate",
+        "Applications are reviewed within 48 hours",
+        "Network of 20,000+ experts across 50+ research domains"
+      ],
+      "cons": [
+        "About page asks for 15+ years of experience or teaching certification",
+        "No pay figures published on the site"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://alignedhq.ai/",
+        "hq": "https://alignedhq.ai/",
+        "hq_country": "https://alignedhq.ai/",
+        "headcount": "https://www.linkedin.com/company/aligned-labs/",
+        "work_types": "https://alignedhq.ai/",
+        "hiring_steps": "https://alignedhq.ai/for-experts",
+        "description": "https://alignedhq.ai/for-experts",
+        "pros": "https://alignedhq.ai/for-experts",
+        "cons": "https://alignedhq.ai/about"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "alignerr",
+      "name": "Alignerr",
+      "website": "https://www.alignerr.com",
+      "operator": "Labelbox",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "rlhf",
+        "model_evaluation",
+        "coding",
+        "expert_data",
+        "audio_speech",
+        "data_labeling"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "deel"
+      ],
+      "eligible_countries": "Applicants from around the world who meet skill and communication requirements; visa holders only if their visa allows contract work",
+      "hiring_steps": [
+        "application",
+        "id_verification",
+        "ai_interview",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 10,
+        "max": 280,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Alignerr is Labelbox's contributor platform. You'll write code challenges, domain prompts and voice data, or grade model outputs against rubrics. Rates are listed on each project before you start, and the homepage says contributors are paid weekly.",
+      "pros": [
+        "No minimum hours; the FAQ says many contributors work 20-25 hours a week",
+        "Pay is listed in each project description before you start",
+        "Homepage states contributors are paid weekly"
+      ],
+      "cons": [
+        "Identity check through Persona is required for all contributors",
+        "Some jobs add a Zara AI interview or a skills assessment",
+        "Every project starts with a calibration phase where sample work is reviewed"
+      ],
+      "listings": {
+        "active": 7,
+        "last_90d": 38,
+        "first_seen": "2026-03-24",
+        "last_seen": "2026-09-17"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Software Engineering",
+          "listings": 7
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 4.81,
+        "reviews_sampled": 280,
+        "url": "https://www.trustpilot.com/review/alignerr.com",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/alignerr",
+      "sources": {
+        "website": "https://www.alignerr.com",
+        "operator": "https://www.alignerr.com/faqs",
+        "headcount": "https://www.linkedin.com/company/alignerr/",
+        "work_types": "https://www.alignerr.com/faqs",
+        "classification": "https://www.alignerr.com/faqs",
+        "payout_frequency": "https://www.alignerr.com",
+        "payment_methods": "https://www.alignerr.com/faqs",
+        "eligible_countries": "https://www.alignerr.com/faqs",
+        "hiring_steps": "https://www.alignerr.com/faqs",
+        "stated_pay": "https://www.alignerr.com",
+        "description": "https://www.alignerr.com/faqs",
+        "pros": "https://www.alignerr.com/faqs",
+        "cons": "https://www.alignerr.com/faqs"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "appen",
+      "name": "Appen",
+      "website": "https://appen.com",
+      "operator": null,
+      "hq": "Sydney, Australia",
+      "hq_country": "AU",
+      "founded": 1996,
+      "headcount": "501-1000",
+      "work_types": [
+        "data_labeling",
+        "model_evaluation",
+        "expert_data",
+        "coding",
+        "translation"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [
+        "bank_transfer",
+        "paypal",
+        "payoneer",
+        "airtm"
+      ],
+      "eligible_countries": "1M+ contributors across 170+ countries",
+      "hiring_steps": [
+        "application",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "Appen is an ASX-listed data company founded in Sydney in 1996. Its contributor platform, CrowdGen, pays you to evaluate, annotate and write content for AI training, with expert projects in code, law, medicine, finance and linguistics.",
+      "pros": [
+        "Pays via bank transfer, PayPal, Payoneer or Airtm",
+        "Rates are shown before you start",
+        "Contributors in 170+ countries and 235+ languages"
+      ],
+      "cons": [
+        "Rates vary by location and skills",
+        "Signup includes a verification step"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://appen.com/about-us/",
+        "hq": "https://appen.com/about-us/",
+        "hq_country": "https://appen.com/about-us/",
+        "founded": "https://appen.com/about-us/",
+        "headcount": "https://www.linkedin.com/company/appen/",
+        "work_types": "https://crowdgen.com/",
+        "payment_methods": "https://crowdgen.com/",
+        "eligible_countries": "https://appen.com/about-us/",
+        "hiring_steps": "https://crowdgen.com/",
+        "description": "https://crowdgen.com/",
+        "pros": "https://crowdgen.com/",
+        "cons": "https://crowdgen.com/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "atlas-capture",
+      "name": "Atlas Capture",
+      "website": "https://www.atlascapture.io",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "51-200",
+      "work_types": [
+        "data_collection",
+        "image_video_annotation",
+        "data_labeling",
+        "model_evaluation"
+      ],
+      "classification": null,
+      "payout_frequency": "biweekly",
+      "payment_methods": [],
+      "eligible_countries": "North America, Asia and Australia",
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Atlas Capture pays you to record short videos of everyday tasks like cooking and cleaning on an iPhone app, used to train robotics models. There are also text labeling and AI feedback tasks in the browser, and every task shows its pay upfront.",
+      "pros": [
+        "Paid biweekly with no minimum balance",
+        "No minimum hours or task quotas",
+        "Each task shows its pay before you start"
+      ],
+      "cons": [
+        "Recording tasks need an iPhone 11 or newer",
+        "Pay rates vary by region",
+        "Only available in North America, Asia and Australia"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.atlascapture.io/",
+        "headcount": "https://www.linkedin.com/company/atlas-capture-llc/",
+        "work_types": "https://www.atlascapture.io/",
+        "payout_frequency": "https://www.atlascapture.io/",
+        "eligible_countries": "https://www.atlascapture.io/",
+        "description": "https://www.atlascapture.io/",
+        "pros": "https://www.atlascapture.io/",
+        "cons": "https://www.atlascapture.io/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "blend-localization",
+      "name": "BLEND",
+      "website": "https://www.getblend.com",
+      "operator": "Tasq.ai",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": null,
+      "work_types": [
+        "translation",
+        "audio_speech",
+        "data_labeling"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": "Freelancers in 172 countries",
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "BLEND, formerly One Hour Translation and now a Tasq.ai company, is a localization firm. Its freelancer portal takes translators and voice artists in 120+ languages, and it also sells AI training data annotation to clients.",
+      "pros": [
+        "Separate applications for translators and voice artists",
+        "Work across 120+ languages",
+        "Freelancer community in 172 countries"
+      ],
+      "cons": [
+        "No pay rates or payment methods published on the freelancer page",
+        "Main site is aimed at business clients"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.getblend.com/",
+        "operator": "https://www.getblend.com/",
+        "work_types": "https://www.getblend.com/",
+        "eligible_countries": "https://freelancers.getblend.com/",
+        "hiring_steps": "https://freelancers.getblend.com/",
+        "description": "https://www.getblend.com/",
+        "pros": "https://freelancers.getblend.com/",
+        "cons": "https://freelancers.getblend.com/"
+      },
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "claru",
+      "name": "Claru",
+      "website": "https://claru.ai",
+      "operator": "Reka AI Inc.",
+      "hq": null,
+      "hq_country": null,
+      "founded": 2024,
+      "headcount": "11-50",
+      "work_types": [
+        "data_collection",
+        "rlhf",
+        "model_evaluation",
+        "image_video_annotation",
+        "red_teaming",
+        "coding",
+        "expert_data"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "biweekly",
+      "payment_methods": [
+        "bank_transfer",
+        "wise",
+        "payoneer"
+      ],
+      "eligible_countries": "Most roles accept the US, Canada, Mexico and Brazil; capture variants also open in India, the Philippines, Indonesia, Vietnam, Argentina, Colombia, Chile and Peru",
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": {
+        "min": 5,
+        "max": 100,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Claru is Reka AI's data brand for physical and frontier AI. Contributors film first-person video of everyday tasks with gear Claru ships them, or do remote RLHF, annotation, code review and red teaming. Every listing shows its hourly rate in USD.",
+      "pros": [
+        "Every listing shows its hourly rate in USD",
+        "Paid bi-weekly via Wise, Payoneer or bank transfer",
+        "Applications are reviewed within 3-5 business days"
+      ],
+      "cons": [
+        "Capture pay is set by region, from $5/hr in Asia to $15/hr in the US",
+        "Capture roles pay for accepted footage only",
+        "Camera equipment ships to you and goes back when the engagement ends"
+      ],
+      "listings": {
+        "active": 60,
+        "last_90d": 60,
+        "first_seen": "2026-09-20",
+        "last_seen": "2026-09-23"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 13,
+        "p25": 7,
+        "p75": 21,
+        "n": 60
+      },
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 38
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 9
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 7
+        },
+        {
+          "domain": "Business",
+          "listings": 4
+        },
+        {
+          "domain": "STEM",
+          "listings": 1
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/claru",
+      "sources": {
+        "website": "https://claru.ai",
+        "operator": "https://claru.ai/jobs",
+        "founded": "https://claru.ai/jobs",
+        "headcount": "https://www.linkedin.com/company/claru-ai/",
+        "work_types": "https://claru.ai/jobs",
+        "classification": "https://claru.ai/jobs",
+        "payout_frequency": "https://claru.ai/jobs",
+        "payment_methods": "https://claru.ai/jobs",
+        "eligible_countries": "https://claru.ai/jobs",
+        "hiring_steps": "https://claru.ai/jobs",
+        "stated_pay": "https://claru.ai/jobs",
+        "description": "https://claru.ai/jobs",
+        "pros": "https://claru.ai/jobs",
+        "cons": "https://claru.ai/jobs"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "clickworker",
+      "name": "Clickworker",
+      "website": "https://www.clickworker.com",
+      "operator": "LXT",
+      "hq": "Essen, Germany",
+      "hq_country": "DE",
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "data_labeling",
+        "data_collection",
+        "research_studies"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "paypal",
+        "payoneer",
+        "bank_transfer"
+      ],
+      "eligible_countries": "Workers in 136 countries; you must be allowed to work where you live",
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "Clickworker is a German microtask platform where registered freelancers do data collection, labeling, categorization, surveys and app testing. It's paid per task at a fixed amount published before you start, with a weekly bill run.",
+      "pros": [
+        "Weekly bill run, with PayPal payouts by Saturday",
+        "€10 minimum for PayPal and SEPA",
+        "Fixed pay per task, published in advance"
+      ],
+      "cons": [
+        "Payment methods depend on your country",
+        "Bank payouts take 5-7 business days after the bill run"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.clickworker.com/",
+        "operator": "https://www.clickworker.com/",
+        "hq": "https://www.clickworker.com/",
+        "hq_country": "https://www.clickworker.com/",
+        "headcount": "https://www.linkedin.com/company/clickworker/",
+        "work_types": "https://www.clickworker.com/",
+        "classification": "https://www.clickworker.com/",
+        "payout_frequency": "https://support-workplace.clickworker.com/support/solutions/articles/80000672350-what-payment-options-do-i-have-",
+        "payment_methods": "https://support-workplace.clickworker.com/support/solutions/articles/80000672350-what-payment-options-do-i-have-",
+        "eligible_countries": "https://www.clickworker.com/clickworker-job/",
+        "hiring_steps": "https://www.clickworker.com/clickworker-job/",
+        "description": "https://www.clickworker.com/",
+        "pros": "https://support-workplace.clickworker.com/support/solutions/articles/80000672350-what-payment-options-do-i-have-",
+        "cons": "https://support-workplace.clickworker.com/support/solutions/articles/80000672350-what-payment-options-do-i-have-"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "cloudfactory",
+      "name": "CloudFactory",
+      "website": "https://www.cloudfactory.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 2010,
+      "headcount": "1001-5000",
+      "work_types": [
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech",
+        "content_moderation"
+      ],
+      "classification": null,
+      "payout_frequency": "monthly",
+      "payment_methods": [
+        "bank_transfer"
+      ],
+      "eligible_countries": "Citizens of Nepal, Kenya, the Philippines or Colombia",
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "CloudFactory, founded in Nepal in 2010, hires Data Specialists for annotation, transcription, moderation and data extraction. You'll take a skills assessment and training, then get paid monthly into a local bank account.",
+      "pros": [
+        "Paid monthly into your local bank account",
+        "Training provided before you start",
+        "Part-time and full-time options"
+      ],
+      "cons": [
+        "Only open to citizens of Nepal, Kenya, the Philippines or Colombia",
+        "Some projects run on scheduled shifts"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.cloudfactory.com/about",
+        "founded": "https://www.cloudfactory.com/about",
+        "headcount": "https://www.linkedin.com/company/cloudfactory-com/",
+        "work_types": "https://www.cloudfactory.com/careers/data-specialist",
+        "payout_frequency": "https://www.cloudfactory.com/careers/data-specialist",
+        "payment_methods": "https://www.cloudfactory.com/careers/data-specialist",
+        "eligible_countries": "https://www.cloudfactory.com/careers/data-specialist",
+        "hiring_steps": "https://www.cloudfactory.com/careers/data-specialist",
+        "description": "https://www.cloudfactory.com/careers/data-specialist",
+        "pros": "https://www.cloudfactory.com/careers/data-specialist",
+        "cons": "https://www.cloudfactory.com/careers/data-specialist"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "cntxt-ai",
+      "name": "CNTXT AI",
+      "website": "https://www.cntxt.tech",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 2021,
+      "headcount": "51-200",
+      "work_types": [
+        "model_evaluation",
+        "coding",
+        "expert_data"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "CNTXT AI is an Arabic-first AI and data company in the UAE. Its careers page lists remote hourly contractor roles for AI training, such as biology evaluators and Python and C++ coding experts.",
+      "pros": [
+        "Remote, hourly contractor roles",
+        "Listings for coding and science specialists"
+      ],
+      "cons": [
+        "Most of the site is aimed at enterprise clients",
+        "No pay rates or payment methods published"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.cntxt.tech/",
+        "founded": "https://www.cntxt.tech/our-story",
+        "headcount": "https://www.linkedin.com/company/cntxtai/",
+        "work_types": "https://www.cntxt.tech/career",
+        "classification": "https://www.cntxt.tech/career",
+        "hiring_steps": "https://www.cntxt.tech/career",
+        "description": "https://www.cntxt.tech/career",
+        "pros": "https://www.cntxt.tech/career",
+        "cons": "https://www.cntxt.tech/career"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "dataannotation",
+      "name": "DataAnnotation Tech",
+      "website": "https://dataannotation.tech",
+      "operator": "Surge AI",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "5001-10000",
+      "work_types": [
+        "rlhf",
+        "model_evaluation",
+        "data_labeling",
+        "coding",
+        "expert_data"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "on_demand",
+      "payment_methods": [
+        "paypal"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 25,
+        "max": 150,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "DataAnnotation pays remote contractors to rank AI responses, check facts, label data and review subject-specific content. You get in by passing a one-hour Starter Assessment, and the FAQ says it pays through PayPal within a few days of a withdrawal request.",
+      "pros": [
+        "Pay is sent via PayPal within a few days of each withdrawal request",
+        "Work on your own schedule with no long-term commitment",
+        "Coding and STEM projects are listed at $50-$100+/hr"
+      ],
+      "cons": [
+        "The Starter Assessment can only be taken once, with no retakes",
+        "The FAQ doesn't list which countries are eligible"
+      ],
+      "listings": {
+        "active": 0,
+        "last_90d": 11,
+        "first_seen": "2026-08-10",
+        "last_seen": "2026-08-10"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": {
+        "avg_rating": 4.25,
+        "reviews_sampled": 264,
+        "url": "https://www.trustpilot.com/review/dataannotation.tech",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/dataannotation-tech",
+      "sources": {
+        "website": "https://dataannotation.tech",
+        "operator": "https://surgehq.ai/consultant-network",
+        "headcount": "https://www.linkedin.com/company/dataannotationtech/",
+        "work_types": "https://dataannotation.tech",
+        "classification": "https://dataannotation.tech",
+        "payout_frequency": "https://www.dataannotation.tech/faqs",
+        "payment_methods": "https://www.dataannotation.tech/faqs",
+        "hiring_steps": "https://www.dataannotation.tech/faqs",
+        "stated_pay": "https://dataannotation.tech",
+        "description": "https://www.dataannotation.tech/faqs",
+        "pros": "https://www.dataannotation.tech/faqs",
+        "cons": "https://www.dataannotation.tech/faqs"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "datamundi",
+      "name": "DATAmundi",
+      "website": "https://datamundi.ai",
+      "operator": "Summa Linguae Technologies",
+      "hq": "Kraków, Poland",
+      "hq_country": "PL",
+      "founded": null,
+      "headcount": "201-500",
+      "work_types": [
+        "translation",
+        "data_labeling",
+        "data_collection",
+        "audio_speech"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "DATAmundi is the AI data and language brand of Summa Linguae Technologies, based in Kraków. Freelancers can register for data projects or localization work, including translation, editing, proofreading and QA.",
+      "pros": [
+        "Separate registration for data projects and localization",
+        "Needs translators in technical, medical, legal and finance fields"
+      ],
+      "cons": [
+        "No pay rates or payment methods published",
+        "CAT tool knowledge recommended for translation work"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://datamundi.ai/",
+        "operator": "https://datamundi.ai/",
+        "hq": "https://datamundi.ai/about/",
+        "hq_country": "https://datamundi.ai/about/",
+        "headcount": "https://www.linkedin.com/company/datamundi-ai/",
+        "work_types": "https://datamundi.ai/",
+        "classification": "https://datamundi.ai/community/",
+        "hiring_steps": "https://datamundi.ai/community/",
+        "description": "https://datamundi.ai/community/",
+        "pros": "https://datamundi.ai/community/",
+        "cons": "https://datamundi.ai/community/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "ethos",
+      "name": "Ethos",
+      "website": "https://www.askethos.com",
+      "operator": null,
+      "hq": "London, UK",
+      "hq_country": "GB",
+      "founded": null,
+      "headcount": "2-10",
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "research_studies"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "varies",
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "Ethos is an expert network run by Ethos Artificial Intelligence Limited in London. Its remote roles include creating and evaluating AI-generated work to help train an AI lab's language model, alongside paid consulting, advisory calls and market research.",
+      "pros": [
+        "Free for experts to use",
+        "Featured opportunities list an hourly rate, e.g. $70/hr up to $1.4k/week",
+        "Rate and payment method are confirmed in writing before each project"
+      ],
+      "cons": [
+        "Ethos can require a third-party identity check before paying you",
+        "You can't take projects about an employer you worked for in the last six months"
+      ],
+      "listings": {
+        "active": 258,
+        "last_90d": 324,
+        "first_seen": "2026-03-23",
+        "last_seen": "2026-09-28"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 80,
+        "p25": 70,
+        "p75": 100,
+        "n": 258
+      },
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 96
+        },
+        {
+          "domain": "Business",
+          "listings": 92
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 14
+        },
+        {
+          "domain": "Finance",
+          "listings": 13
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 13
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 4,
+        "reviews_sampled": 80,
+        "url": "https://www.trustpilot.com/review/askethos.com",
+        "scraped_at": "2026-08-20"
+      },
+      "profile_url": "https://aitrainer.work/platforms/ethos",
+      "sources": {
+        "website": "https://agent.askethos.com/",
+        "operator": "https://agent.askethos.com/expert-terms",
+        "hq": "https://agent.askethos.com/expert-terms",
+        "hq_country": "https://agent.askethos.com/expert-terms",
+        "headcount": "https://www.linkedin.com/company/askethos/",
+        "work_types": "https://www.linkedin.com/jobs/view/4455142436/",
+        "classification": "https://agent.askethos.com/expert-terms",
+        "payout_frequency": "https://agent.askethos.com/expert-terms",
+        "hiring_steps": "https://agent.askethos.com/expert-terms",
+        "description": "https://www.linkedin.com/jobs/view/4455142436/",
+        "pros": "https://agent.askethos.com/expert-terms",
+        "cons": "https://agent.askethos.com/expert-terms"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "handshake",
+      "name": "Handshake",
+      "website": "https://joinhandshake.com/ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "501-1000",
+      "work_types": [
+        "model_evaluation",
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "stripe"
+      ],
+      "eligible_countries": "US-based with valid work authorization (F-1 students on CPT or OPT eligible, STEM OPT excluded)",
+      "hiring_steps": [
+        "application",
+        "id_verification",
+        "background_check",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 40,
+        "max": 125,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "The Handshake AI Fellowship pays people with associate, bachelor's, master's or PhD backgrounds to evaluate and improve AI models remotely. It's run by the Handshake careers network, and payouts go out weekly through Stripe.",
+      "pros": [
+        "Hourly pay of $40-$125 stated on the fellowship page",
+        "Payouts are sent by Wednesday for the previous Monday-Sunday week",
+        "No prior AI experience required"
+      ],
+      "cons": [
+        "Must be US-based with valid work authorization",
+        "Identity verification and a background check are part of onboarding"
+      ],
+      "listings": {
+        "active": 210,
+        "last_90d": 210,
+        "first_seen": "2026-01-01",
+        "last_seen": "2026-09-26"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 80,
+        "p25": 75,
+        "p75": 100,
+        "n": 210
+      },
+      "top_domains": [
+        {
+          "domain": "STEM",
+          "listings": 61
+        },
+        {
+          "domain": "Business",
+          "listings": 39
+        },
+        {
+          "domain": "Generalist",
+          "listings": 25
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 14
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 12
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 1.5,
+        "reviews_sampled": 8,
+        "url": "https://www.trustpilot.com/review/joinhandshake.com",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/handshake",
+      "sources": {
+        "website": "https://joinhandshake.com/ai",
+        "headcount": "https://www.linkedin.com/company/team-handshake/",
+        "work_types": "https://joinhandshake.com/ai",
+        "payout_frequency": "https://ai-support.joinhandshake.com/articles/32263614087575",
+        "payment_methods": "https://ai-support.joinhandshake.com/articles/36935929970711",
+        "eligible_countries": "https://joinhandshake.com/ai",
+        "hiring_steps": "https://ai-support.joinhandshake.com/articles/32263614087575",
+        "stated_pay": "https://joinhandshake.com/ai",
+        "description": "https://joinhandshake.com/ai",
+        "pros": "https://joinhandshake.com/ai",
+        "cons": "https://joinhandshake.com/ai"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "imerit",
+      "name": "iMerit",
+      "website": "https://imerit.ai",
+      "operator": "EXL",
+      "hq": "San Jose, CA",
+      "hq_country": "US",
+      "founded": 2012,
+      "headcount": "10001+",
+      "work_types": [
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech",
+        "model_evaluation",
+        "rlhf",
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "iMerit, now part of EXL, provides annotation, model evaluation and fine-tuning data across image, video, LiDAR, text and audio. Individuals join through iMerit Scholars, a remote programme for domain experts in fields like law, medicine, finance and maths.",
+      "pros": [
+        "Scholars work is remote and flexible",
+        "Projects run from days to long-term contracts",
+        "Scholars site lists fields from computer science and law to healthcare and humanities"
+      ],
+      "cons": [
+        "Scholars page doesn't publish pay rates",
+        "No classification or payment method details on the Scholars homepage"
+      ],
+      "listings": {
+        "active": 0,
+        "last_90d": 15,
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/imerit",
+      "sources": {
+        "website": "https://imerit.ai/",
+        "operator": "https://imerit.ai/",
+        "hq": "https://imerit.ai/about-us/",
+        "hq_country": "https://imerit.ai/about-us/",
+        "founded": "https://imerit.ai/about-us/",
+        "headcount": "https://www.linkedin.com/company/imerit/",
+        "work_types": "https://imerit.ai/",
+        "hiring_steps": "https://join-scholars.imerit.net/",
+        "description": "https://join-scholars.imerit.net/",
+        "pros": "https://join-scholars.imerit.net/",
+        "cons": "https://join-scholars.imerit.net/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "innodata",
+      "name": "Innodata",
+      "website": "https://www.innodata.com",
+      "operator": null,
+      "hq": "Ridgefield Park, NJ",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": "5001-10000",
+      "work_types": [
+        "data_collection",
+        "data_labeling",
+        "rlhf",
+        "red_teaming",
+        "model_evaluation",
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Innodata is a Nasdaq-listed (INOD) data engineering company in Ridgefield Park, New Jersey. It sells data collection, annotation, fine-tuning data, RLHF and red teaming to AI builders, and hires through its own careers site.",
+      "pros": [
+        "Publicly listed on Nasdaq as INOD",
+        "Says it has 11,500 in-house subject matter experts"
+      ],
+      "cons": [
+        "Careers page doesn't describe a contributor programme",
+        "No pay rates published on the careers homepage"
+      ],
+      "listings": {
+        "active": 0,
+        "last_90d": 104,
+        "first_seen": "2026-04-17",
+        "last_seen": "2026-08-17"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/innodata",
+      "sources": {
+        "website": "https://www.innodata.com",
+        "hq": "https://www.innodata.com",
+        "hq_country": "https://www.innodata.com",
+        "headcount": "https://www.linkedin.com/company/innodata-inc-/",
+        "work_types": "https://www.innodata.com",
+        "description": "https://www.innodata.com",
+        "pros": "https://www.innodata.com",
+        "cons": "https://innodatacareers.com/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "invisible-technologies",
+      "name": "Invisible Technologies",
+      "website": "https://invisibletech.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "201-500",
+      "work_types": [
+        "data_labeling",
+        "model_evaluation",
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Invisible Technologies is an AI training and enterprise automation company. It recruits experts for data preparation, labeling and AI evaluation through its Meridial network, which it says holds 24,000+ vetted experts screened by skill, language and domain.",
+      "pros": [
+        "Expert network screens by skill, language and domain",
+        "24,000+ vetted experts in the network"
+      ],
+      "cons": [
+        "Expert applications go through a separate site, meridial.ai",
+        "No pay rates on the main site"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://invisibletech.ai/",
+        "headcount": "https://www.linkedin.com/company/invisible-technologies-inc-/",
+        "work_types": "https://invisibletech.ai/",
+        "description": "https://invisibletech.ai/",
+        "pros": "https://invisibletech.ai/",
+        "cons": "https://invisibletech.ai/join-us"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "labela",
+      "name": "Labela",
+      "website": "https://www.labela.ai",
+      "operator": "Lumos AI Research Corp.",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "expert_data"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Labela pays medical, health, chemistry and biology experts to train AI on their own schedule. It's run by Lumos AI Research Corp., and contributors sign an independent contractor consulting agreement governed by Delaware law.",
+      "pros": [
+        "Flexible schedule",
+        "Focused on medical and science expertise"
+      ],
+      "cons": [
+        "Contractor agreement: you handle your own taxes",
+        "Disputes settled by arbitration in Wilmington, Delaware"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.labela.ai/",
+        "operator": "https://www.labela.ai/terms",
+        "headcount": "https://www.linkedin.com/company/labelaai/",
+        "work_types": "https://www.labela.ai/",
+        "classification": "https://www.labela.ai/terms",
+        "description": "https://www.labela.ai/",
+        "pros": "https://www.labela.ai/",
+        "cons": "https://www.labela.ai/terms"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "lilt",
+      "name": "Lilt",
+      "website": "https://lilt.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 2015,
+      "headcount": "201-500",
+      "work_types": [
+        "data_labeling",
+        "audio_speech",
+        "model_evaluation",
+        "translation"
+      ],
+      "classification": null,
+      "payout_frequency": "varies",
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "LILT is an enterprise AI translation company founded in 2015. Its Horizon programme pays translators and linguists for labeling, transcription and evaluation tasks that train its multilingual models, and you'll get paid within 15 days of completing work.",
+      "pros": [
+        "Paid within 15 days of completed work",
+        "Work from anywhere, choose your hours"
+      ],
+      "cons": [
+        "Aimed at professional translators and linguists",
+        "No rates published"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://lilt.com",
+        "founded": "https://lilt.com/company",
+        "headcount": "https://www.linkedin.com/company/lilthq/",
+        "work_types": "https://horizon.lilt.com",
+        "payout_frequency": "https://horizon.lilt.com",
+        "hiring_steps": "https://horizon.lilt.com",
+        "description": "https://horizon.lilt.com",
+        "pros": "https://horizon.lilt.com",
+        "cons": "https://horizon.lilt.com"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "lionbridge",
+      "name": "Lionbridge",
+      "website": "https://www.lionbridge.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "5001-10000",
+      "work_types": [
+        "data_collection",
+        "model_evaluation",
+        "data_labeling",
+        "audio_speech",
+        "expert_data",
+        "translation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "Lionbridge is a translation and localisation company with an AI training programme for freelancers. You'll pick projects in data collection, model evaluation, annotation, transcription or prompt writing, pass assessments, then work in its AuroraStudio platform.",
+      "pros": [
+        "Freelance, you choose when and how much you work",
+        "Six task types, from annotation to prompt writing"
+      ],
+      "cons": [
+        "Each project needs an application and assessments",
+        "Rates and payment methods only shown after registering"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.lionbridge.com/join-our-team/",
+        "headcount": "https://www.linkedin.com/company/lionbridge/",
+        "work_types": "https://ai-opportunities.lionbridge.com/",
+        "classification": "https://ai-opportunities.lionbridge.com/",
+        "hiring_steps": "https://ai-opportunities.lionbridge.com/",
+        "description": "https://ai-opportunities.lionbridge.com/",
+        "pros": "https://ai-opportunities.lionbridge.com/",
+        "cons": "https://ai-opportunities.lionbridge.com/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "luel",
+      "name": "Luel",
+      "website": "https://www.luel.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "data_collection",
+        "audio_speech"
+      ],
+      "classification": null,
+      "payout_frequency": "varies",
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": {
+        "min": 7.5,
+        "max": 12,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Luel is a multimodal data lab that pays contributors to submit conversational audio, first-person videos and photos for AI training. Rates are set per task, for example $12/hr for American English conversations, and it claims 850,000+ contributors.",
+      "pros": [
+        "Payouts processed daily",
+        "Posted rates per task, e.g. $12/hr for English conversations",
+        "Discord community for contributors"
+      ],
+      "cons": [
+        "Submissions are reviewed and can be rejected before payment",
+        "Rare-language audio pays $7.50/hr"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.luel.ai",
+        "headcount": "https://www.linkedin.com/company/luel/",
+        "work_types": "https://www.luel.ai/contribute",
+        "payout_frequency": "https://www.luel.ai/contribute",
+        "stated_pay": "https://www.luel.ai/contribute",
+        "description": "https://www.luel.ai/contribute",
+        "pros": "https://www.luel.ai/contribute",
+        "cons": "https://www.luel.ai/contribute"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "mercor",
+      "name": "Mercor",
+      "website": "https://mercor.com",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": "201-500",
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "rlhf"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "stripe",
+        "wise"
+      ],
+      "eligible_countries": "130+ countries via Stripe, plus Brazil, UAE, Nepal and Turkey via Wise; about 100 listed countries can't be onboarded",
+      "hiring_steps": [
+        "application",
+        "ai_interview",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "Mercor hires professionals as contractors to train and evaluate AI models in fields like law, medicine and finance. Applicants do an AI interview and a one-time Persona ID check, and pay lands every Wednesday via Stripe or Wise.",
+      "pros": [
+        "Paid every Wednesday for the previous work week",
+        "Homepage states an average contracted rate of $109/hr",
+        "Stripe Instant Payout gets funds to your bank in about 30 minutes for a 1% fee"
+      ],
+      "cons": [
+        "Includes an AI interview",
+        "Identity is verified once through Persona",
+        "Payout bank account must be in your own legal name"
+      ],
+      "listings": {
+        "active": 1397,
+        "last_90d": 1511,
+        "first_seen": "2026-01-02",
+        "last_seen": "2026-09-29"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 75,
+        "p25": 50,
+        "p75": 100,
+        "n": 1353
+      },
+      "top_domains": [
+        {
+          "domain": "Languages",
+          "listings": 251
+        },
+        {
+          "domain": "Generalist",
+          "listings": 201
+        },
+        {
+          "domain": "STEM",
+          "listings": 183
+        },
+        {
+          "domain": "Business",
+          "listings": 169
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 101
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 4.68,
+        "reviews_sampled": 272,
+        "url": "https://www.trustpilot.com/review/mercor.io",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/mercor",
+      "sources": {
+        "website": "https://mercor.com",
+        "hq": "https://mercor.com",
+        "hq_country": "https://mercor.com",
+        "headcount": "https://www.linkedin.com/company/mercor-ai/",
+        "work_types": "https://mercor.com",
+        "classification": "https://talent.docs.mercor.com/how-to/payments.md",
+        "payout_frequency": "https://talent.docs.mercor.com/how-to/payments.md",
+        "payment_methods": "https://talent.docs.mercor.com/how-to/payments.md",
+        "eligible_countries": "https://talent.docs.mercor.com/policies/supported-countries.md",
+        "hiring_steps": "https://talent.docs.mercor.com/llms.txt",
+        "description": "https://talent.docs.mercor.com/how-to/payments.md",
+        "pros": "https://talent.docs.mercor.com/how-to/payments.md",
+        "cons": "https://talent.docs.mercor.com/how-to/payments.md"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "meridial",
+      "name": "Meridial (Invisible)",
+      "website": "https://www.meridial.ai",
+      "operator": "Invisible Technologies",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "201-500",
+      "work_types": [
+        "rlhf",
+        "model_evaluation",
+        "red_teaming",
+        "expert_data"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "biweekly",
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "Meridial is Invisible Technologies' marketplace for expert contractors. You'll write and rank model responses, red team, design rewards and validate agent trajectories. Each engagement lists its rate range up front, and earnings are paid every two weeks.",
+      "pros": [
+        "Rate range is published on each engagement before you apply",
+        "Earnings are processed every two weeks",
+        "Work covers RLHF, SFT, red teaming and environment design"
+      ],
+      "cons": [
+        "You sign a Statement of Work before starting a project",
+        "Signing up includes a profile confirmation step"
+      ],
+      "listings": {
+        "active": 494,
+        "last_90d": 508,
+        "first_seen": "2026-08-10",
+        "last_seen": "2026-09-26"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Languages",
+          "listings": 243
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 69
+        },
+        {
+          "domain": "STEM",
+          "listings": 47
+        },
+        {
+          "domain": "Voice Acting",
+          "listings": 32
+        },
+        {
+          "domain": "Business",
+          "listings": 30
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/meridial-invisible",
+      "sources": {
+        "website": "https://www.meridial.ai",
+        "operator": "https://www.meridial.ai",
+        "headcount": "https://www.linkedin.com/company/meridial-marketplace/",
+        "work_types": "https://www.meridial.ai/faq",
+        "classification": "https://www.meridial.ai",
+        "payout_frequency": "https://www.meridial.ai/faq",
+        "hiring_steps": "https://www.meridial.ai/faq",
+        "description": "https://www.meridial.ai/faq",
+        "pros": "https://www.meridial.ai/faq",
+        "cons": "https://www.meridial.ai/faq"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "micro1",
+      "name": "Micro1",
+      "website": "https://www.micro1.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "51-200",
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "data_collection"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "biweekly",
+      "payment_methods": [
+        "deel"
+      ],
+      "eligible_countries": "Global, except about 20 listed countries including China, Russia, Iran, Venezuela and Ukraine",
+      "hiring_steps": [
+        "application",
+        "ai_interview",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "micro1 is a human data lab that trains and evaluates AI models. Experts in engineering, finance, healthcare, law and other fields apply, take an AI interview with its interviewer Zara, then join projects. Contracts and pay run through Deel.",
+      "pros": [
+        "Paid in USD twice a month",
+        "Open to most countries worldwide",
+        "Process is apply, AI interview, onboard, start"
+      ],
+      "cons": [
+        "Includes an AI interview with an AI interviewer called Zara",
+        "Onboarding includes KYC identity verification",
+        "You sign a contractor agreement through Deel"
+      ],
+      "listings": {
+        "active": 402,
+        "last_90d": 771,
+        "first_seen": "2026-01-03",
+        "last_seen": "2026-09-29"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 63,
+        "p25": 35,
+        "p75": 105,
+        "n": 333
+      },
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 85
+        },
+        {
+          "domain": "STEM",
+          "listings": 53
+        },
+        {
+          "domain": "Legal",
+          "listings": 46
+        },
+        {
+          "domain": "Languages",
+          "listings": 46
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 40
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 4.75,
+        "reviews_sampled": 276,
+        "url": "https://www.trustpilot.com/review/micro1.ai",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/micro1",
+      "sources": {
+        "website": "https://www.micro1.ai",
+        "headcount": "https://www.linkedin.com/company/micro1/",
+        "work_types": "https://www.micro1.ai",
+        "classification": "https://library.micro1.ai/working/faqs",
+        "payout_frequency": "https://library.micro1.ai/working/faqs",
+        "payment_methods": "https://library.micro1.ai/working/faqs",
+        "eligible_countries": "https://www.micro1.ai/experts",
+        "hiring_steps": "https://www.micro1.ai/experts",
+        "description": "https://www.micro1.ai/experts",
+        "pros": "https://www.micro1.ai/experts",
+        "cons": "https://www.micro1.ai/experts"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "mindrift",
+      "name": "Mindrift",
+      "website": "https://mindrift.ai",
+      "operator": "Toloka AI BV",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "501-1000",
+      "work_types": [
+        "expert_data",
+        "model_evaluation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "biweekly",
+      "payment_methods": [
+        "payoneer",
+        "paypal"
+      ],
+      "eligible_countries": "Global except 17 sanctioned countries and about 35 unsupported territories; 18+; some projects add their own requirements",
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "id_verification"
+      ],
+      "stated_pay": {
+        "min": 15,
+        "max": 100,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Mindrift is Toloka's platform for AI trainers. You'll write prompts, rate AI answers and rewrite them into ideal responses across 90+ domains and 20+ languages. It's freelance work with no fixed hours, paid on the 5th and 20th of each month.",
+      "pros": [
+        "Paid twice a month, on the 5th and 20th",
+        "States $15-30/hr entry-level and $60-100+/hr for domain experts",
+        "No employment contract and no fixed hours"
+      ],
+      "cons": [
+        "Specialised projects need a CV, an assessment and ID verification",
+        "Not available in 17 sanctioned countries plus about 35 unsupported territories",
+        "Pay is set per project"
+      ],
+      "listings": {
+        "active": 310,
+        "last_90d": 310,
+        "first_seen": "2026-01-05",
+        "last_seen": "2026-09-25"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 45,
+        "p25": 35,
+        "p75": 50,
+        "n": 305
+      },
+      "top_domains": [
+        {
+          "domain": "Software Engineering",
+          "listings": 108
+        },
+        {
+          "domain": "Generalist",
+          "listings": 87
+        },
+        {
+          "domain": "STEM",
+          "listings": 78
+        },
+        {
+          "domain": "Design",
+          "listings": 29
+        },
+        {
+          "domain": "Business",
+          "listings": 6
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 3.85,
+        "reviews_sampled": 244,
+        "url": "https://www.trustpilot.com/review/mindrift.ai",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/mindrift",
+      "sources": {
+        "website": "https://mindrift.ai",
+        "operator": "https://mindrift.ai",
+        "headcount": "https://www.linkedin.com/company/mindrift-ai/",
+        "work_types": "https://mindrift.ai",
+        "classification": "https://mindrift.ai/faq",
+        "payout_frequency": "https://mindrift.ai/faq",
+        "payment_methods": "https://mindrift.ai/faq",
+        "eligible_countries": "https://mindrift.ai/legal/eligibility-and-geographic-restrictions",
+        "hiring_steps": "https://mindrift.ai/faq",
+        "stated_pay": "https://mindrift.ai",
+        "description": "https://mindrift.ai",
+        "pros": "https://mindrift.ai",
+        "cons": "https://mindrift.ai/faq"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "oneforma",
+      "name": "OneForma",
+      "website": "https://www.oneforma.com",
+      "operator": "Centific",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "10001+",
+      "work_types": [
+        "image_video_annotation",
+        "data_labeling",
+        "data_collection",
+        "model_evaluation",
+        "audio_speech",
+        "translation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "biweekly",
+      "payment_methods": [
+        "payoneer",
+        "paypal",
+        "bank_transfer"
+      ],
+      "eligible_countries": "100+ countries",
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "OneForma is Centific's crowd platform for annotation, data collection, AI judging, transcription and translation projects. You create a profile, get matched to projects, and see the rate before you accept. It pays twice a month with no application fees.",
+      "pros": [
+        "Paid twice a month, no minimum threshold, no fees",
+        "Rates shown before you accept a project",
+        "Available in 100+ countries"
+      ],
+      "cons": [
+        "Payout method must be connected before any production work",
+        "Project availability depends on matching"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.oneforma.com",
+        "operator": "https://www.oneforma.com",
+        "headcount": "https://www.linkedin.com/company/oneformaglobal/",
+        "work_types": "https://www.oneforma.com",
+        "classification": "https://www.oneforma.com/",
+        "payout_frequency": "https://www.oneforma.com",
+        "payment_methods": "https://www.oneforma.com/help-center/general-inquiries/what-payment-methods-are-available-for-you/",
+        "eligible_countries": "https://www.oneforma.com",
+        "hiring_steps": "https://www.oneforma.com",
+        "description": "https://www.oneforma.com",
+        "pros": "https://www.oneforma.com",
+        "cons": "https://www.oneforma.com/help-center/general-inquiries/what-payment-methods-are-available-for-you/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "outlier",
+      "name": "Outlier AI",
+      "website": "https://outlier.ai",
+      "operator": "Scale AI",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "10001+",
+      "work_types": [
+        "expert_data",
+        "rlhf",
+        "coding"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "paypal",
+        "airtm",
+        "bank_transfer"
+      ],
+      "eligible_countries": "About 50 countries; the list is not published. Needs a valid ID and mobile number from your country of residence.",
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "Scale AI's freelance platform for AI training work. Contractors write prompts, build grading rubrics and rate model answers across coding, STEM and languages. Onboarding takes 30 to 90 minutes.",
+      "pros": [
+        "Paid weekly, every Tuesday",
+        "You see the task rate before you start a project",
+        "Payout by PayPal, Airtm or ACH bank transfer"
+      ],
+      "cons": [
+        "Rates are not published before you sign up",
+        "You need an ID and phone number from your country of residence"
+      ],
+      "listings": {
+        "active": 8,
+        "last_90d": 23,
+        "first_seen": "2025-12-30",
+        "last_seen": "2026-09-29"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Languages",
+          "listings": 5
+        },
+        {
+          "domain": "Generalist",
+          "listings": 3
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 4.21,
+        "reviews_sampled": 272,
+        "url": "https://www.trustpilot.com/review/outlier.ai",
+        "scraped_at": "2026-01-22"
+      },
+      "profile_url": "https://aitrainer.work/platforms/outlier-ai",
+      "sources": {
+        "website": "https://outlier.ai",
+        "operator": "https://outlier.ai",
+        "headcount": "https://www.linkedin.com/company/try-outlier/",
+        "work_types": "https://outlier.ai",
+        "classification": "https://outlier.ai/faq",
+        "payout_frequency": "https://outlier.ai/faq",
+        "payment_methods": "https://outlier.ai/faq",
+        "eligible_countries": "https://outlier.ai/faq",
+        "hiring_steps": "https://outlier.ai/faq",
+        "description": "https://outlier.ai",
+        "pros": "https://outlier.ai/faq",
+        "cons": "https://outlier.ai/faq"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "pareto-ai",
+      "name": "Pareto AI",
+      "website": "https://pareto.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "51-200",
+      "work_types": [
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "Pareto AI builds human training data for AI models. Its expert network takes specialists in medicine, law, STEM, finance, software and languages, who create challenges and domain insight for model training. Applications are reviewed on a rolling basis.",
+      "pros": [
+        "Recruits across six fields, from medicine and law to software and linguistics",
+        "Applications are reviewed on a rolling basis"
+      ],
+      "cons": [
+        "Pay rates aren't published on the experts page",
+        "Payment methods and schedule aren't stated publicly"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://pareto.ai",
+        "operator": "https://pareto.ai/about-us",
+        "headcount": "https://www.linkedin.com/company/paretohq/",
+        "work_types": "https://pareto.ai/experts",
+        "hiring_steps": "https://pareto.ai/experts",
+        "description": "https://pareto.ai/experts",
+        "pros": "https://pareto.ai/experts",
+        "cons": "https://pareto.ai/experts"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "pasiflora-ai",
+      "name": "Pasiflora AI",
+      "website": "https://www.pasifloraai.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "2-10",
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "data_labeling"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 35,
+        "max": 250,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Pasiflora AI connects credentialed specialists such as PhDs, MDs and JDs with companies training domain-specific models. Experts annotate, evaluate, write gold-standard answers and rank model outputs. You'll do a short voice assessment and a 30-minute training course before projects.",
+      "pros": [
+        "States rates of $35 to $250 an hour depending on domain and task",
+        "No minimum time commitment; you accept or decline invitations",
+        "No per-task applications once approved"
+      ],
+      "cons": [
+        "Starts with a 3-question voice assessment and a qualification quiz",
+        "Most listings are interest lists for future projects",
+        "All task content is confidential"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.pasifloraai.com",
+        "operator": "https://www.pasifloraai.com",
+        "headcount": "https://www.linkedin.com/company/pasiflora-ai/",
+        "work_types": "https://www.pasifloraai.com",
+        "classification": "https://www.pasifloraai.com/how-it-works",
+        "hiring_steps": "https://www.pasifloraai.com/how-it-works",
+        "stated_pay": "https://www.pasifloraai.com/how-it-works",
+        "description": "https://www.pasifloraai.com/how-it-works",
+        "pros": "https://www.pasifloraai.com/how-it-works",
+        "cons": "https://www.pasifloraai.com/careers"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "pila8",
+      "name": "Pila8",
+      "website": "https://pila8.com/",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "501-1000",
+      "work_types": [
+        "audio_speech",
+        "data_collection"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": {
+        "min": 5,
+        "max": 50,
+        "unit": "per_task",
+        "currency": "USD"
+      },
+      "description": "Pila8 is a mobile app that pays you to record original human audio for AI training projects, from scripted prompts to conversations. Earnings post once a submission is approved, and pay is shown per opportunity.",
+      "pros": [
+        "Short everyday audio tasks of 2 to 4 minutes pay $5 to $12",
+        "Longer qualified projects of 20+ minutes pay $50 or more"
+      ],
+      "cons": [
+        "Earnings only count once a submission is approved",
+        "Payment methods aren't listed on the info page"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://pila8.com/",
+        "headcount": "https://www.linkedin.com/company/pila8/",
+        "work_types": "https://pila8.com/info/",
+        "stated_pay": "https://pila8.com/info/",
+        "description": "https://pila8.com/info/",
+        "pros": "https://pila8.com/info/",
+        "cons": "https://pila8.com/info/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "prolific",
+      "name": "Prolific",
+      "website": "https://www.prolific.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 2014,
+      "headcount": "51-200",
+      "work_types": [
+        "research_studies",
+        "model_evaluation"
+      ],
+      "classification": null,
+      "payout_frequency": "on_demand",
+      "payment_methods": [
+        "paypal"
+      ],
+      "eligible_countries": "Residents of about 50 mostly OECD countries incl. US, UK, Canada, EU states, Australia, Japan, India, Brazil, Mexico, South Africa; 18+",
+      "hiring_steps": [
+        "application",
+        "id_verification",
+        "trial_task"
+      ],
+      "stated_pay": {
+        "min": 8,
+        "max": null,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Prolific, founded at Oxford University in 2014, runs an online participant pool for academic research and AI developers. You'll take surveys, decision games and AI model evaluations. Researchers must pay at least £6 or $8 an hour.",
+      "pros": [
+        "Researchers must pay at least £6/$8 per hour",
+        "Pays in real money via PayPal, with no points or gift cards",
+        "Instant PayPal transfers after your first 4 cashouts"
+      ],
+      "cons": [
+        "New participants join a waitlist before getting an invite",
+        "Minimum cashout is £6/$6",
+        "Only open to residents of listed countries"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.prolific.com",
+        "operator": "https://www.prolific.com/about",
+        "founded": "https://www.prolific.com/participants",
+        "headcount": "https://www.linkedin.com/company/prolific-com/",
+        "work_types": "https://www.prolific.com/participants",
+        "payout_frequency": "https://www.prolific.com/participants",
+        "payment_methods": "https://www.prolific.com/participants",
+        "eligible_countries": "https://participant-help.prolific.com/en/articles/445007-who-can-participate-in-studies-on-prolific",
+        "hiring_steps": "https://www.prolific.com/participants",
+        "stated_pay": "https://participant-help.prolific.com/en/articles/445043-underpaying-studies",
+        "description": "https://www.prolific.com/participants",
+        "pros": "https://www.prolific.com/participants",
+        "cons": "https://www.prolific.com/participants"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "remotasks",
+      "name": "Remotasks",
+      "website": "https://remotasks.com",
+      "operator": "Scale AI",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "5001-10000",
+      "work_types": [
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech"
+      ],
+      "classification": null,
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "paypal",
+        "airtm"
+      ],
+      "eligible_countries": "90+ countries",
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Remotasks is Scale AI's tasking platform where you label images, transcribe audio and annotate data used to train AI. Harder task tiers pay more, and it reports 240,000+ taskers across 90+ countries.",
+      "pros": [
+        "Taskers are paid weekly",
+        "Pays via PayPal or AirTM",
+        "Higher difficulty tiers pay more"
+      ],
+      "cons": [
+        "No pay rates published on the homepage"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://remotasks.com",
+        "operator": "https://remotasks.com",
+        "headcount": "https://www.linkedin.com/company/remotasks/",
+        "work_types": "https://remotasks.com",
+        "payout_frequency": "https://remotasks.com",
+        "payment_methods": "https://remotasks.com",
+        "eligible_countries": "https://remotasks.com",
+        "description": "https://remotasks.com",
+        "pros": "https://remotasks.com",
+        "cons": "https://remotasks.com"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "rex",
+      "name": "Remo Experts",
+      "website": "https://rex.zone",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "201-500",
+      "work_types": [
+        "expert_data",
+        "coding"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "monthly",
+      "payment_methods": [
+        "stripe",
+        "payoneer",
+        "wise"
+      ],
+      "eligible_countries": "Global, with some projects limited by client or regulatory rules; basic English and a bachelor's degree required",
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "RemoExperts (REX) recruits subject-matter experts to train AI models, from coders and STEM PhDs to writers and video editors. It says it has 120K+ experts across 230+ domains. You'll take a 15-20 minute entry exam and verify your ID with Persona before applying to projects.",
+      "pros": [
+        "Pays through Stripe, Payoneer or Wise",
+        "Covers 230+ domains, from coding to cinematography",
+        "Fully remote, with experts in 50+ countries"
+      ],
+      "cons": [
+        "Needs at least a bachelor's degree",
+        "Includes a 15-20 minute entry exam plus role-specific exams",
+        "ID verification through Persona"
+      ],
+      "listings": {
+        "active": 15,
+        "last_90d": 15,
+        "first_seen": "2026-03-23",
+        "last_seen": "2026-09-11"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 105,
+        "p25": 84,
+        "p75": 110,
+        "n": 14
+      },
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 7
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 3
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 1
+        },
+        {
+          "domain": "Legal",
+          "listings": 1
+        },
+        {
+          "domain": "Business",
+          "listings": 1
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/remo-experts",
+      "sources": {
+        "website": "https://rex.zone",
+        "headcount": "https://www.linkedin.com/company/rex-zone/",
+        "work_types": "https://rex.zone",
+        "classification": "https://rex.zone/faqs",
+        "payout_frequency": "https://rex.zone/faqs",
+        "payment_methods": "https://rex.zone/faqs",
+        "eligible_countries": "https://rex.zone/faqs",
+        "hiring_steps": "https://rex.zone/faqs",
+        "description": "https://rex.zone",
+        "pros": "https://rex.zone",
+        "cons": "https://rex.zone/faqs"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "rise-data-labs",
+      "name": "Rise Data Labs",
+      "website": "https://risedatalabs.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "2-10",
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "data_labeling"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [],
+      "eligible_countries": "Experts worldwide; some roles limited to the US or to US, Canada and Europe",
+      "hiring_steps": [
+        "application",
+        "ai_interview",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 150,
+        "max": 150,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Rise Data Labs supplies training and evaluation data for AI models using domain experts. You'll build work scenarios, write rubrics, grade AI outputs and spot reasoning errors. Most posted contract roles list $150 an hour.",
+      "pros": [
+        "Weekly payouts with no minimums",
+        "Most posted roles list $150/hour",
+        "No AI experience needed if you're a domain expert"
+      ],
+      "cons": [
+        "Includes an AI or async interview and a domain skills test",
+        "Projects often expect 20 to 40 hours a week for about 2 weeks",
+        "Some roles are US-only"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://risedatalabs.com",
+        "operator": "https://risedatalabs.com",
+        "headcount": "https://www.linkedin.com/company/rise-data-labs/",
+        "work_types": "https://experts.risedatalabs.com/",
+        "classification": "https://experts.risedatalabs.com/",
+        "payout_frequency": "https://experts.risedatalabs.com/",
+        "eligible_countries": "https://experts.risedatalabs.com/",
+        "hiring_steps": "https://experts.risedatalabs.com/",
+        "stated_pay": "https://experts.risedatalabs.com/",
+        "description": "https://experts.risedatalabs.com/",
+        "pros": "https://experts.risedatalabs.com/",
+        "cons": "https://experts.risedatalabs.com/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "rustlabs-ai",
+      "name": "RustLabs AI",
+      "website": "https://rustlabs.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "2-10",
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "coding",
+        "data_collection"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "trial_task"
+      ],
+      "stated_pay": {
+        "min": 20,
+        "max": 100,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "rustLabs is an applied AI lab that builds RL environments, evaluations and expert data for AI labs. Its expert network of 8,200+ professionals covers software, finance, ML, STEM, law and medicine. Pay runs $20 to $100+ an hour by field.",
+      "pros": [
+        "States $20 to $100+ per hour, set by field and depth",
+        "Remote, self-scheduled work",
+        "Six fields open, including software, finance, legal and medical"
+      ],
+      "cons": [
+        "You apply with proof of expertise such as GitHub, papers or a portfolio",
+        "Includes a short calibration task in your field"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://rustlabs.ai",
+        "operator": "https://rustlabs.ai/about",
+        "headcount": "https://www.linkedin.com/company/rustlabsai/",
+        "work_types": "https://rustlabs.ai",
+        "hiring_steps": "https://experts.rustlabs.ai",
+        "stated_pay": "https://experts.rustlabs.ai",
+        "description": "https://experts.rustlabs.ai",
+        "pros": "https://experts.rustlabs.ai",
+        "cons": "https://experts.rustlabs.ai"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "rws",
+      "name": "RWS (TrainAI)",
+      "website": "https://www.rws.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "5001-10000",
+      "work_types": [
+        "model_evaluation",
+        "data_collection",
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "per_task",
+      "payment_methods": [
+        "paypal",
+        "bank_transfer"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "RWS runs the TrainAI community for freelance AI data work. You'll rate search results and ads, collect text, audio, image or video data, or annotate data. No experience is needed to join, and it's paid per task via PayPal or bank transfer.",
+      "pros": [
+        "No experience needed to join",
+        "Paid per task via PayPal or bank account",
+        "Pay details are shared before each task"
+      ],
+      "cons": [
+        "Minimum age is 18",
+        "You supply your own computer and internet connection",
+        "Work comes as email invitations to projects you're matched to"
+      ],
+      "listings": {
+        "active": 0,
+        "last_90d": 65,
+        "first_seen": "2025-03-14",
+        "last_seen": "2026-08-17"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/rws-trainai",
+      "sources": {
+        "website": "https://www.rws.com/about/",
+        "headcount": "https://www.linkedin.com/company/rws-group/",
+        "work_types": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/",
+        "classification": "https://community.rws.com/community-hub/resources/rws-services-train-ai-others/trainai/w/faq/6805/recruiting-process",
+        "payout_frequency": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/",
+        "payment_methods": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/",
+        "hiring_steps": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/",
+        "description": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/",
+        "pros": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/",
+        "cons": "https://www.rws.com/artificial-intelligence/train-ai-data-services/trainai-community/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "scale-ai",
+      "name": "Scale AI",
+      "website": "https://scale.com",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": 2016,
+      "headcount": "501-1000",
+      "work_types": [
+        "data_labeling",
+        "model_evaluation",
+        "red_teaming"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Scale AI, founded in 2016 in San Francisco, provides training data, model evaluations and red-teaming for AI labs, enterprises and governments. It says it has paid $1B to contributors globally, who work through its platforms such as Remotasks.",
+      "pros": [
+        "Reports $1B paid to contributors globally",
+        "Over 1,000 employees"
+      ],
+      "cons": [
+        "Contributor work runs through separate platforms, not scale.com",
+        "scale.com doesn't publish contributor pay rates"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://scale.com",
+        "operator": "https://scale.com/about",
+        "hq": "https://scale.com/about",
+        "hq_country": "https://scale.com/about",
+        "founded": "https://scale.com/about",
+        "headcount": "https://www.linkedin.com/company/scaleai/",
+        "work_types": "https://scale.com/about",
+        "description": "https://scale.com/about",
+        "pros": "https://scale.com/about",
+        "cons": "https://scale.com/about"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "sigma-ai",
+      "name": "Sigma AI",
+      "website": "https://sigma.ai",
+      "operator": "Sigma Group",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "501-1000",
+      "work_types": [
+        "audio_speech",
+        "image_video_annotation",
+        "data_labeling"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": "Varies by project; current listings target Latin America, India, North Africa and Europe",
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Sigma AI, part of Sigma Group, supplies AI training data and evaluation for enterprise clients across 700+ languages. It hires remote contractors for language-specific annotation of speech, text, image and video data, posted on its careers site.",
+      "pros": [
+        "Language-specific projects across 700+ languages and dialects",
+        "Listings are fully remote"
+      ],
+      "cons": [
+        "Pay isn't listed on the careers page",
+        "Projects are tied to specific languages and regions"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://sigma.ai",
+        "operator": "https://careers.sigma.ai/",
+        "headcount": "https://www.linkedin.com/company/sigma-ai/",
+        "work_types": "https://careers.sigma.ai/",
+        "classification": "https://careers.sigma.ai/",
+        "eligible_countries": "https://careers.sigma.ai/",
+        "description": "https://careers.sigma.ai/",
+        "pros": "https://careers.sigma.ai/",
+        "cons": "https://careers.sigma.ai/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "silencio-ai",
+      "name": "Silencio AI",
+      "website": "https://www.silencio.network/",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "audio_speech",
+        "data_collection"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [
+        "crypto"
+      ],
+      "eligible_countries": "180+ countries",
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "Silencio runs a voice and audio data network for AI. Contributors record their own voice in their language, including low-resource languages, and are paid in stablecoin. It reports 2.5 million contributors across 180+ countries.",
+      "pros": [
+        "Operates in 180+ countries",
+        "Focus on low-resource languages and dialects"
+      ],
+      "cons": [
+        "Pays in stablecoin, so you'll need a crypto wallet",
+        "Pay rates aren't published on the homepage"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.silencio.network/",
+        "operator": "https://www.silencio.network/",
+        "headcount": "https://www.linkedin.com/company/silencioai/",
+        "work_types": "https://www.silencio.network/",
+        "payment_methods": "https://www.silencio.network/",
+        "eligible_countries": "https://www.silencio.network/",
+        "description": "https://www.silencio.network/",
+        "pros": "https://www.silencio.network/",
+        "cons": "https://www.silencio.network/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "sme-careers",
+      "name": "SME Careers",
+      "website": "https://sme.careers/",
+      "operator": "SuperAnnotate",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "expert_data",
+        "model_evaluation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "deel"
+      ],
+      "eligible_countries": "Countries supported by Deel",
+      "hiring_steps": [
+        "application",
+        "ai_interview",
+        "assessment",
+        "interview",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "SME Careers is SuperAnnotate's network for subject matter experts who train and evaluate AI models. You'll apply with a CV, take a recorded AI interview, and once screened you sign a Deel contract. Payouts are weekly, covering Monday to Sunday.",
+      "pros": [
+        "Weekly payouts through Deel",
+        "Paid exams show up as exam earnings",
+        "A human is involved in every final hiring decision"
+      ],
+      "cons": [
+        "Includes a recorded AI interview",
+        "Some roles add a qualification exam or a call with the recruiting team",
+        "Needs a Deel contract and ID verification before payment"
+      ],
+      "listings": {
+        "active": 260,
+        "last_90d": 275,
+        "first_seen": "2026-03-31",
+        "last_seen": "2026-09-29"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "QA Testing",
+          "listings": 79
+        },
+        {
+          "domain": "Languages",
+          "listings": 55
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 42
+        },
+        {
+          "domain": "Generalist",
+          "listings": 24
+        },
+        {
+          "domain": "STEM",
+          "listings": 22
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/sme-careers",
+      "sources": {
+        "website": "https://sme.careers/",
+        "operator": "https://sme.careers/",
+        "headcount": "https://www.linkedin.com/company/sme-careers/",
+        "work_types": "https://docs.sme.careers/docs/welcome",
+        "classification": "https://docs.sme.careers/docs/contracting-via-deel",
+        "payout_frequency": "https://docs.sme.careers/docs/weekly-payouts",
+        "payment_methods": "https://docs.sme.careers/docs/contracting-via-deel",
+        "eligible_countries": "https://docs.sme.careers/docs/ai-interview",
+        "hiring_steps": "https://docs.sme.careers/docs/welcome",
+        "description": "https://docs.sme.careers/docs/welcome",
+        "pros": "https://docs.sme.careers/docs/welcome",
+        "cons": "https://docs.sme.careers/docs/welcome"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "snorkel-ai",
+      "name": "Snorkel AI",
+      "website": "https://snorkel.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 2019,
+      "headcount": "201-500",
+      "work_types": [
+        "expert_data",
+        "model_evaluation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [],
+      "eligible_countries": "Select locations only, confirmed during application",
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "Snorkel AI, founded out of the Stanford AI Lab in 2019, runs an Expert Community where specialists in math, law, finance, coding and sciences create hard questions, review peer data and evaluate model outputs. You're paid per project as an independent contractor.",
+      "pros": [
+        "Payments are processed weekly for accepted work",
+        "Approved experts can start contributing the same day",
+        "Many projects pay for attempts plus performance bonuses"
+      ],
+      "cons": [
+        "Only open in select locations",
+        "Pay is per project, with no hourly rate published"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://snorkel.ai",
+        "operator": "https://snorkel.ai/about-us/",
+        "founded": "https://snorkel.ai/about-us/",
+        "headcount": "https://www.linkedin.com/company/snorkel-ai/",
+        "work_types": "https://snorkel.ai/expert-community/",
+        "classification": "https://snorkel.ai/expert-community/",
+        "payout_frequency": "https://snorkel.ai/expert-community/",
+        "eligible_countries": "https://snorkel.ai/expert-community/",
+        "hiring_steps": "https://snorkel.ai/expert-community/",
+        "description": "https://snorkel.ai/expert-community/",
+        "pros": "https://snorkel.ai/expert-community/",
+        "cons": "https://snorkel.ai/expert-community/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "sovrano",
+      "name": "Sovrano AI",
+      "website": "https://sovrano.ai",
+      "operator": null,
+      "hq": "Barcelona, Spain",
+      "hq_country": "ES",
+      "founded": 2026,
+      "headcount": "11-50",
+      "work_types": [
+        "rlhf",
+        "model_evaluation",
+        "red_teaming"
+      ],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "ai_interview"
+      ],
+      "stated_pay": null,
+      "description": "Sovrano AI is a Barcelona team that grew out of CareerOS, a 2024 student job startup. It connects graduates and domain experts with paid AI evaluation work such as RLHF ranking, multilingual evaluation, fact-checking and red-teaming. Current listings are paid internships.",
+      "pros": [
+        "Free to join, sign up with email or Google",
+        "Work on your own schedule",
+        "Built on a network of 100+ university partners"
+      ],
+      "cons": [
+        "Includes a short AI skills interview",
+        "Most listings are internships asking for a bachelor's or master's"
+      ],
+      "listings": {
+        "active": 11,
+        "last_90d": 23,
+        "first_seen": "2026-09-15",
+        "last_seen": "2026-09-29"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 3
+        },
+        {
+          "domain": "Business",
+          "listings": 3
+        },
+        {
+          "domain": "Languages",
+          "listings": 2
+        },
+        {
+          "domain": "Design",
+          "listings": 1
+        },
+        {
+          "domain": "Legal",
+          "listings": 1
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/sovrano-ai",
+      "sources": {
+        "website": "https://sovrano.ai",
+        "hq": "https://sovrano.ai/about",
+        "hq_country": "https://sovrano.ai/about",
+        "founded": "https://sovrano.ai/about",
+        "headcount": "https://www.linkedin.com/company/sovrano-ai/",
+        "work_types": "https://sovrano.ai",
+        "hiring_steps": "https://sovrano.ai",
+        "description": "https://sovrano.ai/about",
+        "pros": "https://sovrano.ai/about",
+        "cons": "https://sovrano.ai"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "stellar-ai",
+      "name": "Stellar AI",
+      "website": "https://joinstellar.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "expert_data",
+        "coding",
+        "model_evaluation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "paypal"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 25,
+        "max": null,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Stellar AI hires contractors to write tasks for AI agents, turn GitHub PRs into coding tasks and draft expert rubrics. It's hourly work with a stated base rate of $25 an hour, and you'll take a skill-match test before joining the annotator pool.",
+      "pros": [
+        "States a base rate of $25 an hour",
+        "Pays weekly",
+        "No fixed schedule or minimum hours"
+      ],
+      "cons": [
+        "Needs a PayPal account to get paid",
+        "No set timeframe between joining the pool and a first project",
+        "Requires fluency in English"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://joinstellar.ai",
+        "headcount": "https://www.linkedin.com/company/join-stellar-ai/",
+        "work_types": "https://joinstellar.ai",
+        "classification": "https://joinstellar.ai",
+        "payout_frequency": "https://joinstellar.ai",
+        "payment_methods": "https://joinstellar.ai",
+        "hiring_steps": "https://joinstellar.ai",
+        "stated_pay": "https://joinstellar.ai",
+        "description": "https://joinstellar.ai",
+        "pros": "https://joinstellar.ai",
+        "cons": "https://joinstellar.ai"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "surge-ai",
+      "name": "Surge AI",
+      "website": "https://surgehq.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "51-200",
+      "work_types": [
+        "model_evaluation",
+        "expert_data"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 60,
+        "max": 60,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Surge AI supplies human data and RL environments to AI labs. Its consultant programme pays finance, accounting, healthcare ops and coding professionals to critique model answers and design test scenarios. You'll apply through its DataAnnotation platform.",
+      "pros": [
+        "States $60/hr for ongoing work",
+        "Pays $100 for submitting an application and $100 more on acceptance",
+        "Work as much or as little as you like"
+      ],
+      "cons": [
+        "Programme covers set specialisms: finance, accounting, healthcare ops, coding",
+        "Includes an assessment",
+        "Payment method and schedule aren't stated on the page"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/surge-ai",
+      "sources": {
+        "website": "https://surgehq.ai",
+        "headcount": "https://www.linkedin.com/company/surge-ai/",
+        "work_types": "https://surgehq.ai/consultant-network",
+        "classification": "https://surgehq.ai/workforce",
+        "hiring_steps": "https://surgehq.ai/consultant-network",
+        "stated_pay": "https://surgehq.ai/consultant-network",
+        "description": "https://surgehq.ai/consultant-network",
+        "pros": "https://surgehq.ai/consultant-network",
+        "cons": "https://surgehq.ai/consultant-network"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "taskverse",
+      "name": "TaskVerse",
+      "website": "https://www.taskverse.com",
+      "operator": "TaskUs",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": null,
+      "work_types": [
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech",
+        "content_moderation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "paypal"
+      ],
+      "eligible_countries": "Registration opens country by country; unsupported countries get a waitlist",
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": null,
+      "description": "TaskVerse is TaskUs's freelance task platform. Taskers pick up per-task work such as annotating images, recording speech, tagging words and transcribing audio. Approved tasks are paid weekly on Thursdays (US time) to PayPal.",
+      "pros": [
+        "No special skills needed to sign up",
+        "Pays weekly on Thursdays for approved tasks",
+        "Work on your own schedule from anywhere"
+      ],
+      "cons": [
+        "PayPal is the only payout method listed",
+        "Registration is closed in some countries",
+        "Tasks aren't guaranteed after sign-up"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.taskverse.com",
+        "operator": "https://www.taskverse.com",
+        "work_types": "https://www.taskverse.com",
+        "classification": "https://www.taskverse.com",
+        "payout_frequency": "https://www.taskverse.com/support",
+        "payment_methods": "https://www.taskverse.com/support",
+        "eligible_countries": "https://www.taskverse.com",
+        "hiring_steps": "https://www.taskverse.com",
+        "description": "https://www.taskverse.com",
+        "pros": "https://www.taskverse.com",
+        "cons": "https://www.taskverse.com"
+      },
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "telus",
+      "name": "TELUS Digital AI Community",
+      "website": "https://www.telusdigital.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "10001+",
+      "work_types": [
+        "model_evaluation",
+        "content_moderation",
+        "data_collection",
+        "translation"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": "Set per role and country; e.g. the US Evaluator role needs 3 consecutive years of US residence",
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "id_verification"
+      ],
+      "stated_pay": null,
+      "description": "TELUS Digital runs an AI Community of over one million freelance contributors who collect, rate, translate and localise content for AI models. Roles like Evaluator or Internet Safety Evaluator are posted per country and language, and pay per task completed.",
+      "pros": [
+        "No previous professional experience needed for rater roles",
+        "Choose when and how much you work",
+        "Roles posted in dozens of countries and languages"
+      ],
+      "cons": [
+        "Language test, open-book qualification exam and ID check required",
+        "One participant per household",
+        "Content can include sensitive or upsetting material"
+      ],
+      "listings": {
+        "active": 0,
+        "last_90d": 133,
+        "first_seen": "2024-11-20",
+        "last_seen": "2026-08-17"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/telus-digital-ai-community",
+      "sources": {
+        "website": "https://www.telusdigital.com",
+        "operator": "https://jobs.telusdigital.com/search/jobs?cfm5=AI%20Community&ns_category=a",
+        "headcount": "https://www.linkedin.com/company/telus-digital/",
+        "work_types": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states",
+        "classification": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states",
+        "eligible_countries": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states",
+        "hiring_steps": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states",
+        "description": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states",
+        "pros": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states",
+        "cons": "https://jobs.telusdigital.com/jobs/18225873-evaluator-united-states"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "terac",
+      "name": "Terac",
+      "website": "https://terac.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "model_evaluation",
+        "expert_data",
+        "research_studies"
+      ],
+      "classification": null,
+      "payout_frequency": "per_task",
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "ai_interview"
+      ],
+      "stated_pay": {
+        "min": 24,
+        "max": 40,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Terac is an expert marketplace founded by Zac and Jack. It pays verified professionals for market research interviews and surveys, and for reviewing AI outputs in their field for AI labs. It says it has 160K+ registered experts and pays once a project is completed.",
+      "pros": [
+        "Two kinds of work: research interviews and AI output review",
+        "Homepage roles list $24-40 per hour worked",
+        "Payment terms are defined before a project starts"
+      ],
+      "cons": [
+        "Includes a short conversational AI interview",
+        "Usually needs undergraduate-level expertise or professional experience",
+        "Payment arrives after the project is completed"
+      ],
+      "listings": {
+        "active": 21,
+        "last_90d": 30,
+        "first_seen": "2026-07-21",
+        "last_seen": "2026-09-29"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 75,
+        "p25": 35,
+        "p75": 95,
+        "n": 11
+      },
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 5
+        },
+        {
+          "domain": "Finance",
+          "listings": 3
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 3
+        },
+        {
+          "domain": "Data Science",
+          "listings": 3
+        },
+        {
+          "domain": "Business",
+          "listings": 2
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/terac",
+      "sources": {
+        "website": "https://terac.com",
+        "headcount": "https://www.linkedin.com/company/terac/",
+        "work_types": "https://terac.com",
+        "payout_frequency": "https://terac.com",
+        "hiring_steps": "https://terac.com",
+        "stated_pay": "https://terac.com",
+        "description": "https://terac.com",
+        "pros": "https://terac.com",
+        "cons": "https://terac.com"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "transperfect",
+      "name": "TransPerfect",
+      "website": "https://www.transperfect.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 1992,
+      "headcount": "5001-10000",
+      "work_types": [
+        "data_collection",
+        "data_labeling",
+        "audio_speech",
+        "content_moderation",
+        "research_studies",
+        "model_evaluation",
+        "translation"
+      ],
+      "classification": "both",
+      "payout_frequency": "varies",
+      "payment_methods": [
+        "bank_transfer",
+        "paypal",
+        "gift_card"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": "DataForce is TransPerfect's AI data arm, with over a million data contributors. Through the DataForce Community you'll find remote and on-site projects in data collection, annotation, transcription and user studies. Pay is per task, per hour or a flat rate, depending on the project.",
+      "pros": [
+        "Payout options include wire transfer, PayPal and Tremendous gift cards",
+        "Each job announcement lists its own pay and payment terms",
+        "Offers remote projects, on-site studies and long-term roles"
+      ],
+      "cons": [
+        "Remote projects pay only after a quality check that can take 2 to 6 weeks",
+        "Tax forms (W-9 or W-8) are required before payment"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.transperfect.com/about",
+        "operator": "https://www.dataforce.ai",
+        "founded": "https://www.transperfect.com/about",
+        "headcount": "https://www.linkedin.com/company/transperfect/",
+        "work_types": "https://www.dataforce.ai",
+        "classification": "https://dataforcecommunity.transperfect.com/FAQ",
+        "payout_frequency": "https://dataforcecommunity.transperfect.com/FAQ",
+        "payment_methods": "https://dataforcecommunity.transperfect.com/FAQ",
+        "description": "https://www.dataforce.ai",
+        "pros": "https://www.dataforce.ai",
+        "cons": "https://www.dataforce.ai"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "turing",
+      "name": "Turing",
+      "website": "https://www.turing.com",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": 2018,
+      "headcount": "1001-5000",
+      "work_types": [
+        "expert_data",
+        "coding"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "interview"
+      ],
+      "stated_pay": null,
+      "description": "Turing is a San Francisco company, founded in 2018, that post-trains large language models for AI labs. Contractors use industry, technical or academic expertise to improve model accuracy and reasoning. You'll set your rate in your profile, then take skill assessments and live interviews.",
+      "pros": [
+        "You set your expected rate on your profile",
+        "Remote work with US companies",
+        "Open to all skill levels"
+      ],
+      "cons": [
+        "Strong English required",
+        "Skill assessments and live interviews before matching",
+        "As a contractor you handle your own taxes"
+      ],
+      "listings": {
+        "active": 359,
+        "last_90d": 474,
+        "first_seen": "2026-03-10",
+        "last_seen": "2026-09-28"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Software Engineering",
+          "listings": 95
+        },
+        {
+          "domain": "Business",
+          "listings": 60
+        },
+        {
+          "domain": "Generalist",
+          "listings": 55
+        },
+        {
+          "domain": "STEM",
+          "listings": 53
+        },
+        {
+          "domain": "Healthcare",
+          "listings": 14
+        }
+      ],
+      "trustpilot_sample": {
+        "avg_rating": 4.33,
+        "reviews_sampled": 216,
+        "url": "https://www.trustpilot.com/review/turing.com",
+        "scraped_at": "2026-02-02"
+      },
+      "profile_url": "https://aitrainer.work/platforms/turing",
+      "sources": {
+        "website": "https://www.turing.com/jobs",
+        "hq": "https://www.turing.com/jobs",
+        "hq_country": "https://www.turing.com/jobs",
+        "founded": "https://www.turing.com/jobs",
+        "headcount": "https://www.linkedin.com/company/turingcom/",
+        "work_types": "https://www.turing.com/jobs",
+        "classification": "https://www.turing.com/jobs",
+        "hiring_steps": "https://www.turing.com/jobs",
+        "description": "https://www.turing.com/jobs",
+        "pros": "https://www.turing.com/jobs",
+        "cons": "https://www.turing.com/jobs"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "uber-ai-solutions",
+      "name": "Uber AI Solutions",
+      "website": "https://www.uber.com/us/en/ai-solutions/",
+      "operator": "Uber",
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "5001-10000",
+      "work_types": [
+        "model_evaluation",
+        "translation",
+        "data_collection",
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "bank_transfer"
+      ],
+      "eligible_countries": "Only where Uber AI Solutions is live; elsewhere you can join a waitlist",
+      "hiring_steps": [
+        "application",
+        "id_verification",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "Uber AI Solutions is Uber's AI data business. Through it you can evaluate AI responses, translate content, test products, collect images and voice samples, and label photos and video. Pay goes out weekly, every Monday, for the previous week's tasks.",
+      "pros": [
+        "Pays weekly, every Monday, to a linked bank account",
+        "Each opportunity shows estimated pay and requirements up front",
+        "Free to sign up"
+      ],
+      "cons": [
+        "Needs a government-issued ID upload",
+        "Only open where the service is live; elsewhere it's a waitlist",
+        "Opportunities aren't guaranteed"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.uber.com/us/en/ai-solutions/",
+        "operator": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "headcount": "https://www.linkedin.com/company/uber-ai-solutions/",
+        "work_types": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "classification": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "payout_frequency": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "payment_methods": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "eligible_countries": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "hiring_steps": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "description": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "pros": "https://www.uber.com/us/en/earn/ai-solutions/",
+        "cons": "https://www.uber.com/us/en/earn/ai-solutions/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "verita-ai",
+      "name": "Verita AI",
+      "website": "https://www.verita-ai.com",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": "2-10",
+      "work_types": [
+        "model_evaluation",
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "stripe"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "ai_interview"
+      ],
+      "stated_pay": null,
+      "description": "Verita AI is a San Francisco expert network that matches vetted professionals with paid AI training projects. You'll review AI answers in your field, write out your reasoning and answer scenario questions. Onboarding includes a 10 to 20 minute AI interview, and pay goes out weekly via Stripe.",
+      "pros": [
+        "Paid weekly via Stripe",
+        "Remote work on your own schedule",
+        "Says it has 9K+ senior professionals in its network"
+      ],
+      "cons": [
+        "Includes a 10 to 20 minute AI interview",
+        "Applicants are screened for verified experience and tenure in their domain"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://www.verita-ai.com/for-experts",
+        "operator": "https://www.verita-ai.com/about",
+        "hq": "https://www.verita-ai.com/about",
+        "hq_country": "https://www.verita-ai.com/about",
+        "headcount": "https://www.linkedin.com/company/verita-ai/",
+        "work_types": "https://www.verita-ai.com/for-experts",
+        "payout_frequency": "https://www.verita-ai.com/for-experts",
+        "payment_methods": "https://www.verita-ai.com/for-experts",
+        "hiring_steps": "https://www.verita-ai.com/for-experts",
+        "description": "https://www.verita-ai.com/for-experts",
+        "pros": "https://www.verita-ai.com/for-experts",
+        "cons": "https://www.verita-ai.com/for-experts"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "vetto",
+      "name": "Vetto",
+      "website": "https://www.vetto.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "coding",
+        "model_evaluation",
+        "expert_data",
+        "data_collection"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application"
+      ],
+      "stated_pay": {
+        "min": 24,
+        "max": 200,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Vetto connects professionals with AI labs for annotation and evaluation projects. You'll review and improve real-world scenarios used to train AI assistants, or record first-person video. Pay is per approved task, converted to your local currency and paid weekly.",
+      "pros": [
+        "Weekly payouts",
+        "Open roles and rates are visible without signing in"
+      ],
+      "cons": [
+        "Application questions must be answered in English",
+        "Using AI on the application gets it blocked",
+        "Paid per approved task"
+      ],
+      "listings": {
+        "active": 4,
+        "last_90d": 9,
+        "first_seen": "2026-03-26",
+        "last_seen": "2026-09-27"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Software Engineering",
+          "listings": 2
+        },
+        {
+          "domain": "Languages",
+          "listings": 1
+        },
+        {
+          "domain": "Generalist",
+          "listings": 1
+        }
+      ],
+      "trustpilot_sample": null,
+      "profile_url": "https://aitrainer.work/platforms/vetto",
+      "sources": {
+        "website": "https://www.vetto.ai",
+        "headcount": "https://www.linkedin.com/company/vetto-ai/",
+        "work_types": "https://work.vetto.ai/opportunities",
+        "classification": "https://work.vetto.ai/opportunities/e1803a6d-12cc-4662-95c8-6572d7ec263e",
+        "payout_frequency": "https://work.vetto.ai/opportunities/e1803a6d-12cc-4662-95c8-6572d7ec263e",
+        "hiring_steps": "https://work.vetto.ai/opportunities/e1803a6d-12cc-4662-95c8-6572d7ec263e",
+        "stated_pay": "https://work.vetto.ai/opportunities",
+        "description": "https://work.vetto.ai/opportunities/e1803a6d-12cc-4662-95c8-6572d7ec263e",
+        "pros": "https://work.vetto.ai/opportunities/e1803a6d-12cc-4662-95c8-6572d7ec263e",
+        "cons": "https://work.vetto.ai/opportunities/e1803a6d-12cc-4662-95c8-6572d7ec263e"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "welocalize",
+      "name": "Welocalize",
+      "website": "https://www.welocalize.com",
+      "operator": null,
+      "hq": "New York, NY",
+      "hq_country": "US",
+      "founded": 1997,
+      "headcount": "1001-5000",
+      "work_types": [
+        "model_evaluation",
+        "red_teaming",
+        "data_labeling",
+        "image_video_annotation",
+        "audio_speech",
+        "translation",
+        "rlhf"
+      ],
+      "classification": null,
+      "payout_frequency": "varies",
+      "payment_methods": [
+        "hyperwallet"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "assessment"
+      ],
+      "stated_pay": null,
+      "description": "Welocalize runs its AI training work through Welo Data, which says it has 500,000+ contributors. Projects include AI safety and harm rating, search relevance, multilingual annotation and LLM ranking. You'll apply, pass a language and cultural assessment plus a task exam, then onboard in Welo Works.",
+      "pros": [
+        "Flexible, task-based remote work",
+        "Optional study materials before the qualification exam",
+        "Says it supports 250+ locales"
+      ],
+      "cons": [
+        "Qualification includes a language assessment and a task exam",
+        "Payment method and frequency are only confirmed at project onboarding"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://welodata.ai/join-the-community/",
+        "operator": "https://www.welocalize.com/about/",
+        "hq": "https://www.welocalize.com/about/",
+        "hq_country": "https://www.welocalize.com/about/",
+        "founded": "https://www.welocalize.com/about/",
+        "headcount": "https://www.linkedin.com/company/welocalize/",
+        "work_types": "https://welodata.ai/join-the-community/",
+        "payout_frequency": "https://welodata.ai/join-the-community/",
+        "payment_methods": "https://welocalizetalent.zendesk.com/hc/en-us",
+        "hiring_steps": "https://welodata.ai/join-the-community/",
+        "description": "https://welodata.ai/join-the-community/",
+        "pros": "https://welodata.ai/join-the-community/",
+        "cons": "https://welodata.ai/join-the-community/"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "workada",
+      "name": "Workada",
+      "website": "https://workada.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": "11-50",
+      "work_types": [
+        "data_labeling",
+        "image_video_annotation",
+        "model_evaluation",
+        "expert_data"
+      ],
+      "classification": null,
+      "payout_frequency": "varies",
+      "payment_methods": [
+        "stripe"
+      ],
+      "eligible_countries": "United States and Canada",
+      "hiring_steps": [
+        "application",
+        "assessment",
+        "interview",
+        "id_verification"
+      ],
+      "stated_pay": {
+        "min": 17,
+        "max": 100,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Workada pays contributors to label images, annotate video, review financial documents and compare model outputs. Every applicant does a skill screen, an interview with the team and paid training. It's open to people in the US and Canada, with pay three times a week via Stripe.",
+      "pros": [
+        "Pays three times a week through Stripe",
+        "Training is paid before you start tasking",
+        "Listed roles show hourly rates, from $17/hr to $100/hr"
+      ],
+      "cons": [
+        "Only accepts contributors in the US and Canada",
+        "Needs identity verification through Persona"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://workada.com",
+        "operator": "https://workada.com",
+        "headcount": "https://www.linkedin.com/company/workada-co/",
+        "work_types": "https://workada.com",
+        "payout_frequency": "https://workada.com",
+        "payment_methods": "https://workada.com",
+        "eligible_countries": "https://workada.com",
+        "hiring_steps": "https://workada.com",
+        "stated_pay": "https://workada.com",
+        "description": "https://workada.com",
+        "pros": "https://workada.com",
+        "cons": "https://workada.com"
+      },
+      "last_checked": "2026-09-29"
+    },
+    {
+      "id": "workbolt",
+      "name": "Workbolt",
+      "website": "https://workbolt.ai",
+      "operator": "Ocular AI, Inc.",
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": null,
+      "work_types": [
+        "audio_speech",
+        "model_evaluation",
+        "expert_data",
+        "coding"
+      ],
+      "classification": "contractor",
+      "payout_frequency": "weekly",
+      "payment_methods": [
+        "paypal",
+        "bank_transfer"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "id_verification",
+        "assessment"
+      ],
+      "stated_pay": {
+        "min": 20,
+        "max": 250,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "Workbolt is Ocular AI's platform for paid AI training work. It runs talent networks for engineers, STEM PhDs, lawyers and accountants, plus voice recording projects. Every listing on its jobs page shows an hourly range in USD.",
+      "pros": [
+        "Every public listing shows an hourly range in USD",
+        "Payments are processed weekly",
+        "Separate sign-up track for students and recent graduates"
+      ],
+      "cons": [
+        "Most listings are talent networks you join, not open projects",
+        "Rejected submissions aren't paid, and payment disputes must be raised within 30 days",
+        "The site doesn't list which countries it accepts"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_sample": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://workbolt.ai/",
+        "operator": "https://workbolt.ai/",
+        "hq": "https://workbolt.ai/terms",
+        "hq_country": "https://workbolt.ai/terms",
+        "work_types": "https://workbolt.ai/public-jobs",
+        "classification": "https://workbolt.ai/terms",
+        "payout_frequency": "https://workbolt.ai/terms",
+        "payment_methods": "https://workbolt.ai/faqs",
+        "hiring_steps": "https://workbolt.ai/how-it-works",
+        "stated_pay": "https://workbolt.ai/public-jobs",
+        "description": "https://workbolt.ai/public-jobs",
+        "pros": "https://workbolt.ai/signup",
+        "cons": "https://workbolt.ai/terms"
+      },
+      "last_checked": "2026-09-28"
+    }
+  ]
+}
