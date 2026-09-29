@@ -6,11 +6,12 @@ authors:
   - family-names: Romeo
     given-names: Pietro
     affiliation: aitrainer.work
-version: "2026.09"
+version: "2026.09.1"
 date-released: 2026-09-29
 license: CC-BY-4.0
 url: "https://aitrainer.work/open-data/companies"
 repository: "https://github.com/aitrainer-work/ai-training-companies"
+doi: 10.5281/zenodo.23042850
 keywords:
   - AI training
   - AI training companies

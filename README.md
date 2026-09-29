@@ -1,10 +1,10 @@
 # AI Training Companies Dataset
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23042850.svg)](https://doi.org/10.5281/zenodo.23042850)
 
 54 companies that pay people to train and evaluate AI models: expert networks, crowdwork platforms and data vendors. One record per company, covering how it hires, how it pays, what work it offers and what its job listings pay.
 
-Version 2026.09, released 2026-09-29. Browse and filter it online: [AI training companies dataset on aitrainer.work](https://aitrainer.work/open-data/companies "AI training companies dataset: hiring, pay and work facts").
+Version 2026.09.1, released 2026-09-29. Browse and filter it online: [AI training companies dataset on aitrainer.work](https://aitrainer.work/open-data/companies "AI training companies dataset: hiring, pay and work facts").
 
 ## Files
 
@@ -82,7 +82,7 @@ A new release is published each month. Each release is archived on Zenodo as a n
 
 ## Citation
 
-> Romeo, P. (2026). *AI Training Companies Dataset* (version 2026.09). aitrainer.work. https://github.com/aitrainer-work/ai-training-companies
+> Romeo, P. (2026). *AI Training Companies Dataset* (version 2026.09.1). aitrainer.work. https://doi.org/10.5281/zenodo.23042850
 
 GitHub's "Cite this repository" button reads `CITATION.cff`.
 
