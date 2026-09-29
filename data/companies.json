@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T14:29:08.496Z",
+  "generated_at": "2026-09-29T15:03:50.042Z",
   "title": "AI training companies",
   "description": "Companies that pay people to train and evaluate AI models: who they are, how they hire, how they pay, and what their live listings pay. Curated fields are checked against each company's own pages; see sources per record.",
   "source_url": "https://aitrainer.work/open-data/companies",
@@ -56,7 +56,7 @@
       ],
       "listings": {
         "active": 206,
-        "last_90d": 258,
+        "last_90d": 257,
         "first_seen": "2026-06-08",
         "last_seen": "2026-09-27"
       },
@@ -835,7 +835,7 @@
       ],
       "listings": {
         "active": 258,
-        "last_90d": 367,
+        "last_90d": 324,
         "first_seen": "2026-03-23",
         "last_seen": "2026-09-28"
       },
@@ -1081,7 +1081,7 @@
       ],
       "listings": {
         "active": 103,
-        "last_90d": 103,
+        "last_90d": 124,
         "first_seen": "2026-04-17",
         "last_seen": "2026-09-29"
       },
@@ -1403,7 +1403,7 @@
       ],
       "listings": {
         "active": 1397,
-        "last_90d": 1524,
+        "last_90d": 1512,
         "first_seen": "2026-01-02",
         "last_seen": "2026-09-29"
       },
@@ -1499,7 +1499,7 @@
       ],
       "listings": {
         "active": 494,
-        "last_90d": 494,
+        "last_90d": 508,
         "first_seen": "2026-08-10",
         "last_seen": "2026-09-26"
       },
@@ -1581,7 +1581,7 @@
       ],
       "listings": {
         "active": 398,
-        "last_90d": 838,
+        "last_90d": 767,
         "first_seen": "2026-01-03",
         "last_seen": "2026-09-29"
       },
@@ -2413,8 +2413,8 @@
       ],
       "listings": {
         "active": 46,
-        "last_90d": 46,
-        "first_seen": "2024-10-14",
+        "last_90d": 94,
+        "first_seen": "2026-01-19",
         "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": null,
@@ -2627,8 +2627,8 @@
       ],
       "listings": {
         "active": 260,
-        "last_90d": 261,
-        "first_seen": "2026-02-09",
+        "last_90d": 275,
+        "first_seen": "2026-03-31",
         "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": null,
@@ -2958,8 +2958,8 @@
       ],
       "listings": {
         "active": 141,
-        "last_90d": 141,
-        "first_seen": "2024-11-20",
+        "last_90d": 150,
+        "first_seen": "2026-01-28",
         "last_seen": "2026-09-29"
       },
       "pay_observed_hourly_usd": {
@@ -3047,7 +3047,7 @@
       ],
       "listings": {
         "active": 21,
-        "last_90d": 171,
+        "last_90d": 30,
         "first_seen": "2026-07-21",
         "last_seen": "2026-09-29"
       },
@@ -3198,7 +3198,7 @@
       ],
       "listings": {
         "active": 359,
-        "last_90d": 478,
+        "last_90d": 474,
         "first_seen": "2026-03-10",
         "last_seen": "2026-09-28"
       },
