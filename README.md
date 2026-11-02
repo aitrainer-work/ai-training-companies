@@ -2,9 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23042850.svg)](https://doi.org/10.5281/zenodo.23042850)
 
-54 companies that pay people to train and evaluate AI models: expert networks, crowdwork platforms and data vendors. One record per company, covering how it hires, how it pays, what work it offers and what its job listings pay.
+60 companies that pay people to train and evaluate AI models: expert networks, crowdwork platforms and data vendors. One record per company, covering how it hires, how it pays, what work it offers and what its job listings pay.
 
-Version 2026.09.1, released 2026-09-29. Browse and filter it online: [AI training companies dataset on aitrainer.work](https://aitrainer.work/open-data/companies "AI training companies dataset: hiring, pay and work facts").
+Version 2026.10, released 2026-11-02. Browse and filter it online: [AI training companies dataset on aitrainer.work](https://aitrainer.work/open-data/companies "AI training companies dataset: hiring, pay and work facts").
 
 ## Files
 
@@ -19,7 +19,7 @@ Each record has two kinds of fields.
 
 **Checked facts.** Every curated field is checked by hand against a primary source: the company's own site (about page, careers page, help centre, terms), a filing, or a news report for founding year and parent company. Headcount is the size band the company selects on its public LinkedIn page, read while logged out. The `sources` object gives the URL behind every checked field, and `last_checked` gives the date. When a company doesn't publish a fact, the field is `null`. No field is copied from a third-party directory.
 
-**Listing statistics.** Computed from the job listings aitrainer.work has observed on each platform since tracking began on it, open and closed. These exist only for the 21 companies whose listings are tracked (`listings` is set).
+**Listing statistics.** Computed from the job listings aitrainer.work has observed on each platform since tracking began on it, open and closed. These exist only for the 26 companies whose listings are tracked (`listings` is set).
 
 ## Fields
 
@@ -27,6 +27,8 @@ Each record has two kinds of fields.
 |---|---|---|
 | `id` | string | Stable identifier, kebab-case |
 | `name` | string | Brand name |
+| `status` | string | `active`, or `closed` when the company has said on its own site that it stopped the work. Closed records keep their last checked facts |
+| `status_since` | date or null | Date we saw the closure notice (`closed` only) |
 | `website` | URL | Company homepage |
 | `operator` | string or null | Parent or operating company, e.g. Outlier AI → Scale AI |
 | `hq` | string or null | Headquarters as the company states it |
@@ -54,19 +56,19 @@ Each record has two kinds of fields.
 
 | Field | Companies with a value |
 |---|---|
-| Companies | 54 |
+| Companies | 60 |
 | Headcount band | 52 |
-| Worker classification | 31 |
+| Worker classification | 32 |
 | Payout frequency | 33 |
-| Hiring steps | 43 |
-| Payment methods | 26 |
+| Hiring steps | 44 |
+| Payment methods | 27 |
 | Eligible countries | 25 |
 | Parent or operator | 17 |
-| Stated pay | 17 |
-| Headquarters | 15 |
-| Founding year | 13 |
-| Listing statistics | 21 |
-| Observed hourly pay (10+ listings) | 10 |
+| Stated pay | 18 |
+| Headquarters | 16 |
+| Founding year | 14 |
+| Listing statistics | 26 |
+| Observed hourly pay (10+ listings) | 13 |
 | Trustpilot organic rating (30+ organic reviews) | 9 |
 
 ## Limitations
@@ -82,7 +84,7 @@ A new release is published each month. Each release is archived on Zenodo as a n
 
 ## Citation
 
-> Romeo, P. (2026). *AI Training Companies Dataset* (version 2026.09.1). aitrainer.work. https://doi.org/10.5281/zenodo.23042850
+> Romeo, P. (2026). *AI Training Companies Dataset* (version 2026.10). aitrainer.work. https://doi.org/10.5281/zenodo.23042850
 
 GitHub's "Cite this repository" button reads `CITATION.cff`.
 

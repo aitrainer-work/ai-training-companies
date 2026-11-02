@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T15:03:50.042Z",
+  "generated_at": "2026-11-02T08:23:15.530Z",
   "title": "AI training companies",
   "description": "Companies that pay people to train and evaluate AI models: who they are, how they hire, how they pay, and what their live listings pay. Curated fields are checked against each company's own pages; see sources per record.",
   "source_url": "https://aitrainer.work/open-data/companies",
@@ -12,14 +12,17 @@
   },
   "notes": [
     "Curated fields are null until checked against a primary source. Null means \"not yet verified\" or \"the company does not publish it\".",
-    "pay_observed_hourly_usd uses listings that state an hourly rate; estimates are excluded. Shown only with 10+ listings.",
+    "status is \"closed\" when the company has said on its own site that it stopped the work, from status_since (the date we saw the notice). Closed records keep their last checked facts as history.",
+    "pay_observed_hourly_usd uses live listings that state an hourly rate, counted as distinct rates (platform + title + rate). Our estimates, platform-wide pay-disclosure bands, \"up to\" ceilings and placeholder ranges are excluded. Shown only with 10+ distinct rates. Method: aitrainer.work/pay-methodology.",
     "trustpilot_organic is the mean rating of organic (not company-invited) Trustpilot reviews from the aitrainer.work Trustpilot study (doi.org/10.5281/zenodo.23018069), only for platforms with 30+ organic reviews. It is not Trustpilot's TrustScore."
   ],
-  "count": 54,
+  "count": 60,
   "companies": [
     {
       "id": "afterquery",
       "name": "AfterQuery",
+      "status": "active",
+      "status_since": null,
       "website": "https://afterquery.com",
       "operator": null,
       "hq": "San Francisco, CA",
@@ -55,37 +58,37 @@
         "Stripe is the only payout method, and the first payout has a 7-day hold"
       ],
       "listings": {
-        "active": 206,
-        "last_90d": 257,
+        "active": 249,
+        "last_90d": 296,
         "first_seen": "2026-06-08",
-        "last_seen": "2026-09-27"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": {
-        "median": 85,
-        "p25": 70,
-        "p75": 112,
-        "n": 162
+        "median": 88,
+        "p25": 75,
+        "p75": 115,
+        "n": 205
       },
       "top_domains": [
         {
           "domain": "Languages",
-          "listings": 50
-        },
-        {
-          "domain": "STEM",
-          "listings": 26
+          "listings": 51
         },
         {
           "domain": "Generalist",
-          "listings": 26
+          "listings": 34
+        },
+        {
+          "domain": "STEM",
+          "listings": 30
         },
         {
           "domain": "Business",
-          "listings": 21
+          "listings": 25
         },
         {
           "domain": "Healthcare",
-          "listings": 21
+          "listings": 25
         }
       ],
       "trustpilot_organic": null,
@@ -110,6 +113,8 @@
     {
       "id": "aligned-labs",
       "name": "Aligned Labs",
+      "status": "active",
+      "status_since": null,
       "website": "https://alignedhq.ai",
       "operator": null,
       "hq": "San Francisco, CA",
@@ -161,6 +166,8 @@
     {
       "id": "alignerr",
       "name": "Alignerr",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.alignerr.com",
       "operator": "Labelbox",
       "hq": null,
@@ -205,16 +212,37 @@
         "Every project starts with a calibration phase where sample work is reviewed"
       ],
       "listings": {
-        "active": 7,
-        "last_90d": 38,
+        "active": 26,
+        "last_90d": 93,
         "first_seen": "2026-03-24",
-        "last_seen": "2026-09-17"
+        "last_seen": "2026-10-29"
       },
-      "pay_observed_hourly_usd": null,
+      "pay_observed_hourly_usd": {
+        "median": 26,
+        "p25": 23,
+        "p75": 75,
+        "n": 26
+      },
       "top_domains": [
         {
+          "domain": "Languages",
+          "listings": 16
+        },
+        {
+          "domain": "Generalist",
+          "listings": 5
+        },
+        {
+          "domain": "Data Science",
+          "listings": 3
+        },
+        {
           "domain": "Software Engineering",
-          "listings": 7
+          "listings": 1
+        },
+        {
+          "domain": "Business",
+          "listings": 1
         }
       ],
       "trustpilot_organic": {
@@ -249,6 +277,8 @@
     {
       "id": "appen",
       "name": "Appen",
+      "status": "active",
+      "status_since": null,
       "website": "https://appen.com",
       "operator": null,
       "hq": "Sydney, Australia",
@@ -310,6 +340,8 @@
     {
       "id": "atlas-capture",
       "name": "Atlas Capture",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.atlascapture.io",
       "operator": null,
       "hq": null,
@@ -357,8 +389,270 @@
       "last_checked": "2026-09-29"
     },
     {
+      "id": "auraone",
+      "name": "AuraOne",
+      "status": "active",
+      "status_since": null,
+      "website": "https://auraone.ai",
+      "operator": null,
+      "hq": "San Francisco, CA",
+      "hq_country": "US",
+      "founded": null,
+      "headcount": null,
+      "work_types": [
+        "expert_data",
+        "model_evaluation",
+        "data_labeling"
+      ],
+      "classification": "contractor",
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [
+        "application",
+        "interview"
+      ],
+      "stated_pay": {
+        "min": 40,
+        "max": 150,
+        "unit": "per_hour",
+        "currency": "USD"
+      },
+      "description": "AuraOne came out of stealth in July 2026 and hires specialists as independent contractors for annotation, evaluation and domain review work. It posts thousands of remote roles across 20 fields, most with an hourly rate on the listing.",
+      "pros": [
+        "Most roles list an hourly rate, from $40 to $150",
+        "Every role is remote",
+        "A person reviews each application"
+      ],
+      "cons": [
+        "Some roles only confirm pay after the interview",
+        "No payout schedule or payment methods published"
+      ],
+      "listings": null,
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
+      "trustpilot_organic": null,
+      "profile_url": null,
+      "sources": {
+        "website": "https://auraone.ai/",
+        "hq": "https://auraone.ai/about",
+        "hq_country": "https://auraone.ai/about",
+        "work_types": "https://auraone.ai/product/recruitment/become-a-specialist",
+        "classification": "https://auraone.ai/public/ai-labs/jobs",
+        "hiring_steps": "https://auraone.ai/public/ai-labs/jobs",
+        "stated_pay": "https://auraone.ai/public/ai-labs/jobs",
+        "description": "https://auraone.ai/about",
+        "pros": "https://auraone.ai/public/ai-labs/jobs",
+        "cons": "https://auraone.ai/public/ai-labs/jobs"
+      },
+      "last_checked": "2026-10-15"
+    },
+    {
+      "id": "babel-audio",
+      "name": "Babel Audio",
+      "status": "active",
+      "status_since": null,
+      "website": "https://dashboard.babel.audio",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": null,
+      "work_types": [],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "listings": {
+        "active": 47,
+        "last_90d": 49,
+        "first_seen": "2026-10-14",
+        "last_seen": "2026-11-02"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Languages",
+          "listings": 25
+        },
+        {
+          "domain": "Voice Acting",
+          "listings": 20
+        },
+        {
+          "domain": "Generalist",
+          "listings": 2
+        }
+      ],
+      "trustpilot_organic": null,
+      "profile_url": "https://aitrainer.work/platforms/babel-audio",
+      "sources": {
+        "website": "https://dashboard.babel.audio/jobs"
+      },
+      "last_checked": "2026-10-14"
+    },
+    {
+      "id": "perle",
+      "name": "Perle",
+      "status": "active",
+      "status_since": null,
+      "website": "https://www.perle.ai",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": null,
+      "work_types": [],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "listings": {
+        "active": 52,
+        "last_90d": 52,
+        "first_seen": "2026-10-15",
+        "last_seen": "2026-10-15"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 15,
+        "p25": 8,
+        "p75": 25,
+        "n": 47
+      },
+      "top_domains": [
+        {
+          "domain": "Languages",
+          "listings": 48
+        },
+        {
+          "domain": "Generalist",
+          "listings": 4
+        }
+      ],
+      "trustpilot_organic": null,
+      "profile_url": "https://aitrainer.work/platforms/perle",
+      "sources": {
+        "website": "https://www.perle.ai/experts/"
+      },
+      "last_checked": "2026-10-15"
+    },
+    {
+      "id": "hashlist",
+      "name": "Hashlist",
+      "status": "active",
+      "status_since": null,
+      "website": "https://hashlist.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": null,
+      "work_types": [],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "listings": {
+        "active": 9,
+        "last_90d": 9,
+        "first_seen": "2026-10-18",
+        "last_seen": "2026-10-29"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Software Engineering",
+          "listings": 6
+        },
+        {
+          "domain": "Arts & Design",
+          "listings": 3
+        }
+      ],
+      "trustpilot_organic": null,
+      "profile_url": "https://aitrainer.work/platforms/hashlist",
+      "sources": {
+        "website": "https://hashlist.com/"
+      },
+      "last_checked": "2026-10-18"
+    },
+    {
+      "id": "respondent",
+      "name": "Respondent",
+      "status": "active",
+      "status_since": null,
+      "website": "https://www.respondent.io",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": 2016,
+      "headcount": null,
+      "work_types": [],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [
+        "gift_card"
+      ],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "listings": {
+        "active": 6,
+        "last_90d": 6,
+        "first_seen": "2026-10-22",
+        "last_seen": "2026-10-22"
+      },
+      "pay_observed_hourly_usd": null,
+      "top_domains": [
+        {
+          "domain": "Generalist",
+          "listings": 3
+        },
+        {
+          "domain": "Biology",
+          "listings": 1
+        },
+        {
+          "domain": "Cybersecurity",
+          "listings": 1
+        },
+        {
+          "domain": "Finance",
+          "listings": 1
+        }
+      ],
+      "trustpilot_organic": null,
+      "profile_url": "https://aitrainer.work/platforms/respondent",
+      "sources": {
+        "website": "https://www.respondent.io/participants",
+        "founded": "https://www.cbinsights.com/company/respondent",
+        "payment_methods": "https://help.respondent.io/en/articles/12552519-getting-paid-on-respondent-timeline-currencies-how-to-redeem"
+      },
+      "last_checked": "2026-10-22"
+    },
+    {
       "id": "blend-localization",
       "name": "BLEND",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.getblend.com",
       "operator": "Tasq.ai",
       "hq": null,
@@ -408,6 +702,8 @@
     {
       "id": "claru",
       "name": "Claru",
+      "status": "active",
+      "status_since": null,
       "website": "https://claru.ai",
       "operator": "Reka AI Inc.",
       "hq": null,
@@ -452,39 +748,13 @@
         "Camera equipment ships to you and goes back when the engagement ends"
       ],
       "listings": {
-        "active": 60,
+        "active": 0,
         "last_90d": 60,
         "first_seen": "2026-09-20",
         "last_seen": "2026-09-23"
       },
-      "pay_observed_hourly_usd": {
-        "median": 13,
-        "p25": 7,
-        "p75": 21,
-        "n": 60
-      },
-      "top_domains": [
-        {
-          "domain": "Generalist",
-          "listings": 38
-        },
-        {
-          "domain": "Healthcare",
-          "listings": 9
-        },
-        {
-          "domain": "Software Engineering",
-          "listings": 7
-        },
-        {
-          "domain": "Business",
-          "listings": 4
-        },
-        {
-          "domain": "STEM",
-          "listings": 1
-        }
-      ],
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
       "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/claru",
       "sources": {
@@ -508,6 +778,8 @@
     {
       "id": "clickworker",
       "name": "Clickworker",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.clickworker.com",
       "operator": "LXT",
       "hq": "Essen, Germany",
@@ -568,6 +840,8 @@
     {
       "id": "cloudfactory",
       "name": "CloudFactory",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.cloudfactory.com",
       "operator": null,
       "hq": null,
@@ -624,6 +898,8 @@
     {
       "id": "cntxt-ai",
       "name": "CNTXT AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.cntxt.tech",
       "operator": null,
       "hq": null,
@@ -673,6 +949,8 @@
     {
       "id": "dataannotation",
       "name": "DataAnnotation Tech",
+      "status": "active",
+      "status_since": null,
       "website": "https://dataannotation.tech",
       "operator": "Surge AI",
       "hq": null,
@@ -751,6 +1029,8 @@
     {
       "id": "datamundi",
       "name": "DATAmundi",
+      "status": "active",
+      "status_since": null,
       "website": "https://datamundi.ai",
       "operator": "Summa Linguae Technologies",
       "hq": "Kraków, Poland",
@@ -803,6 +1083,8 @@
     {
       "id": "ethos",
       "name": "Ethos",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.askethos.com",
       "operator": null,
       "hq": "London, UK",
@@ -820,6 +1102,7 @@
       "eligible_countries": null,
       "hiring_steps": [
         "application",
+        "ai_interview",
         "id_verification"
       ],
       "stated_pay": null,
@@ -834,37 +1117,37 @@
         "You can't take projects about an employer you worked for in the last six months"
       ],
       "listings": {
-        "active": 258,
-        "last_90d": 324,
+        "active": 189,
+        "last_90d": 289,
         "first_seen": "2026-03-23",
-        "last_seen": "2026-09-28"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": {
         "median": 80,
         "p25": 70,
         "p75": 100,
-        "n": 258
+        "n": 185
       },
       "top_domains": [
         {
-          "domain": "Generalist",
-          "listings": 96
+          "domain": "Business",
+          "listings": 72
         },
         {
-          "domain": "Business",
-          "listings": 92
+          "domain": "Generalist",
+          "listings": 59
         },
         {
           "domain": "Software Engineering",
-          "listings": 14
-        },
-        {
-          "domain": "Finance",
-          "listings": 13
+          "listings": 16
         },
         {
           "domain": "Healthcare",
-          "listings": 13
+          "listings": 11
+        },
+        {
+          "domain": "Humanities",
+          "listings": 8
         }
       ],
       "trustpilot_organic": {
@@ -888,16 +1171,18 @@
         "work_types": "https://www.linkedin.com/jobs/view/4455142436/",
         "classification": "https://agent.askethos.com/expert-terms",
         "payout_frequency": "https://agent.askethos.com/expert-terms",
-        "hiring_steps": "https://agent.askethos.com/expert-terms",
+        "hiring_steps": "https://aitrainer.work/guides/ethos-ai-interview-guide",
         "description": "https://www.linkedin.com/jobs/view/4455142436/",
         "pros": "https://agent.askethos.com/expert-terms",
         "cons": "https://agent.askethos.com/expert-terms"
       },
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-10-02"
     },
     {
       "id": "handshake",
       "name": "Handshake",
+      "status": "active",
+      "status_since": null,
       "website": "https://joinhandshake.com/ai",
       "operator": null,
       "hq": null,
@@ -937,39 +1222,13 @@
         "Identity verification and a background check are part of onboarding"
       ],
       "listings": {
-        "active": 210,
+        "active": 0,
         "last_90d": 210,
         "first_seen": "2026-01-01",
         "last_seen": "2026-09-26"
       },
-      "pay_observed_hourly_usd": {
-        "median": 80,
-        "p25": 75,
-        "p75": 100,
-        "n": 210
-      },
-      "top_domains": [
-        {
-          "domain": "STEM",
-          "listings": 61
-        },
-        {
-          "domain": "Business",
-          "listings": 39
-        },
-        {
-          "domain": "Generalist",
-          "listings": 25
-        },
-        {
-          "domain": "Healthcare",
-          "listings": 14
-        },
-        {
-          "domain": "Software Engineering",
-          "listings": 12
-        }
-      ],
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
       "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/handshake",
       "sources": {
@@ -990,6 +1249,8 @@
     {
       "id": "imerit",
       "name": "iMerit",
+      "status": "active",
+      "status_since": null,
       "website": "https://imerit.ai",
       "operator": "EXL",
       "hq": "San Jose, CA",
@@ -1050,6 +1311,8 @@
     {
       "id": "innodata",
       "name": "Innodata",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.innodata.com",
       "operator": null,
       "hq": "Ridgefield Park, NJ",
@@ -1080,32 +1343,37 @@
         "No pay rates published on the careers homepage"
       ],
       "listings": {
-        "active": 103,
-        "last_90d": 124,
+        "active": 95,
+        "last_90d": 133,
         "first_seen": "2026-04-17",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
-      "pay_observed_hourly_usd": null,
+      "pay_observed_hourly_usd": {
+        "median": 15,
+        "p25": 15,
+        "p75": 33,
+        "n": 32
+      },
       "top_domains": [
         {
+          "domain": "Generalist",
+          "listings": 71
+        },
+        {
           "domain": "Data Science",
-          "listings": 79
+          "listings": 16
         },
         {
           "domain": "STEM",
-          "listings": 8
-        },
-        {
-          "domain": "Business",
-          "listings": 6
-        },
-        {
-          "domain": "Generalist",
-          "listings": 4
-        },
-        {
-          "domain": "Languages",
           "listings": 3
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 2
+        },
+        {
+          "domain": "Voice Acting",
+          "listings": 1
         }
       ],
       "trustpilot_organic": null,
@@ -1125,6 +1393,8 @@
     {
       "id": "invisible-technologies",
       "name": "Invisible Technologies",
+      "status": "active",
+      "status_since": null,
       "website": "https://invisibletech.ai",
       "operator": null,
       "hq": null,
@@ -1169,6 +1439,8 @@
     {
       "id": "labela",
       "name": "Labela",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.labela.ai",
       "operator": "Lumos AI Research Corp.",
       "hq": null,
@@ -1213,6 +1485,8 @@
     {
       "id": "lilt",
       "name": "Lilt",
+      "status": "active",
+      "status_since": null,
       "website": "https://lilt.com",
       "operator": null,
       "hq": null,
@@ -1263,6 +1537,8 @@
     {
       "id": "lionbridge",
       "name": "Lionbridge",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.lionbridge.com",
       "operator": null,
       "hq": null,
@@ -1315,6 +1591,8 @@
     {
       "id": "luel",
       "name": "Luel",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.luel.ai",
       "operator": null,
       "hq": null,
@@ -1366,6 +1644,8 @@
     {
       "id": "mercor",
       "name": "Mercor",
+      "status": "active",
+      "status_since": null,
       "website": "https://mercor.com",
       "operator": null,
       "hq": "San Francisco, CA",
@@ -1402,37 +1682,37 @@
         "Payout bank account must be in your own legal name"
       ],
       "listings": {
-        "active": 1397,
-        "last_90d": 1512,
+        "active": 1517,
+        "last_90d": 1645,
         "first_seen": "2026-01-02",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": {
         "median": 75,
         "p25": 50,
         "p75": 100,
-        "n": 1353
+        "n": 1473
       },
       "top_domains": [
         {
           "domain": "Languages",
-          "listings": 251
-        },
-        {
-          "domain": "Generalist",
-          "listings": 201
+          "listings": 269
         },
         {
           "domain": "STEM",
-          "listings": 183
+          "listings": 210
+        },
+        {
+          "domain": "Generalist",
+          "listings": 192
         },
         {
           "domain": "Business",
-          "listings": 169
+          "listings": 188
         },
         {
           "domain": "Healthcare",
-          "listings": 101
+          "listings": 143
         }
       ],
       "trustpilot_organic": {
@@ -1467,6 +1747,8 @@
     {
       "id": "meridial",
       "name": "Meridial (Invisible)",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.meridial.ai",
       "operator": "Invisible Technologies",
       "hq": null,
@@ -1498,12 +1780,17 @@
         "Signing up includes a profile confirmation step"
       ],
       "listings": {
-        "active": 494,
+        "active": 489,
         "last_90d": 508,
         "first_seen": "2026-08-10",
-        "last_seen": "2026-09-26"
+        "last_seen": "2026-10-26"
       },
-      "pay_observed_hourly_usd": null,
+      "pay_observed_hourly_usd": {
+        "median": 22,
+        "p25": 20,
+        "p75": 60,
+        "n": 47
+      },
       "top_domains": [
         {
           "domain": "Languages",
@@ -1511,19 +1798,19 @@
         },
         {
           "domain": "Software Engineering",
-          "listings": 69
+          "listings": 77
         },
         {
           "domain": "STEM",
-          "listings": 47
+          "listings": 38
         },
         {
           "domain": "Voice Acting",
-          "listings": 32
+          "listings": 35
         },
         {
           "domain": "Business",
-          "listings": 30
+          "listings": 28
         }
       ],
       "trustpilot_organic": null,
@@ -1545,6 +1832,8 @@
     {
       "id": "micro1",
       "name": "Micro1",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.micro1.ai",
       "operator": null,
       "hq": null,
@@ -1580,37 +1869,37 @@
         "You sign a contractor agreement through Deel"
       ],
       "listings": {
-        "active": 398,
-        "last_90d": 767,
+        "active": 351,
+        "last_90d": 958,
         "first_seen": "2026-01-03",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": {
-        "median": 60,
-        "p25": 35,
-        "p75": 105,
-        "n": 329
+        "median": 65,
+        "p25": 45,
+        "p75": 93,
+        "n": 342
       },
       "top_domains": [
         {
           "domain": "Generalist",
-          "listings": 83
-        },
-        {
-          "domain": "STEM",
-          "listings": 53
+          "listings": 94
         },
         {
           "domain": "Legal",
-          "listings": 46
+          "listings": 54
         },
         {
           "domain": "Languages",
-          "listings": 46
+          "listings": 48
+        },
+        {
+          "domain": "STEM",
+          "listings": 31
         },
         {
           "domain": "Software Engineering",
-          "listings": 40
+          "listings": 30
         }
       ],
       "trustpilot_organic": {
@@ -1643,6 +1932,8 @@
     {
       "id": "mindrift",
       "name": "Mindrift",
+      "status": "active",
+      "status_since": null,
       "website": "https://mindrift.ai",
       "operator": "Toloka AI BV",
       "hq": null,
@@ -1683,39 +1974,13 @@
         "Pay is set per project"
       ],
       "listings": {
-        "active": 310,
+        "active": 0,
         "last_90d": 310,
         "first_seen": "2026-01-05",
         "last_seen": "2026-09-25"
       },
-      "pay_observed_hourly_usd": {
-        "median": 45,
-        "p25": 35,
-        "p75": 50,
-        "n": 305
-      },
-      "top_domains": [
-        {
-          "domain": "Software Engineering",
-          "listings": 108
-        },
-        {
-          "domain": "Generalist",
-          "listings": 87
-        },
-        {
-          "domain": "STEM",
-          "listings": 78
-        },
-        {
-          "domain": "Design",
-          "listings": 29
-        },
-        {
-          "domain": "Business",
-          "listings": 6
-        }
-      ],
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
       "trustpilot_organic": {
         "mean": 1.5,
         "ci95": [
@@ -1748,6 +2013,8 @@
     {
       "id": "oneforma",
       "name": "OneForma",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.oneforma.com",
       "operator": "Centific",
       "hq": null,
@@ -1808,6 +2075,8 @@
     {
       "id": "outlier",
       "name": "Outlier AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://outlier.ai",
       "operator": "Scale AI",
       "hq": null,
@@ -1844,20 +2113,24 @@
         "You need an ID and phone number from your country of residence"
       ],
       "listings": {
-        "active": 8,
-        "last_90d": 23,
+        "active": 9,
+        "last_90d": 28,
         "first_seen": "2025-12-30",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": null,
       "top_domains": [
         {
-          "domain": "Languages",
-          "listings": 5
+          "domain": "Generalist",
+          "listings": 4
         },
         {
-          "domain": "Generalist",
-          "listings": 3
+          "domain": "Languages",
+          "listings": 4
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 1
         }
       ],
       "trustpilot_organic": {
@@ -1891,6 +2164,8 @@
     {
       "id": "pareto-ai",
       "name": "Pareto AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://pareto.ai",
       "operator": null,
       "hq": null,
@@ -1937,6 +2212,8 @@
     {
       "id": "pasiflora-ai",
       "name": "Pasiflora AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.pasifloraai.com",
       "operator": null,
       "hq": null,
@@ -1995,6 +2272,8 @@
     {
       "id": "pila8",
       "name": "Pila8",
+      "status": "active",
+      "status_since": null,
       "website": "https://pila8.com/",
       "operator": null,
       "hq": null,
@@ -2044,6 +2323,8 @@
     {
       "id": "prolific",
       "name": "Prolific",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.prolific.com",
       "operator": null,
       "hq": null,
@@ -2107,6 +2388,8 @@
     {
       "id": "remotasks",
       "name": "Remotasks",
+      "status": "active",
+      "status_since": null,
       "website": "https://remotasks.com",
       "operator": "Scale AI",
       "hq": null,
@@ -2158,6 +2441,8 @@
     {
       "id": "rex",
       "name": "Remo Experts",
+      "status": "active",
+      "status_since": null,
       "website": "https://rex.zone",
       "operator": null,
       "hq": null,
@@ -2194,37 +2479,37 @@
         "ID verification through Persona"
       ],
       "listings": {
-        "active": 15,
-        "last_90d": 15,
+        "active": 32,
+        "last_90d": 41,
         "first_seen": "2026-03-23",
-        "last_seen": "2026-09-11"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": {
-        "median": 105,
-        "p25": 84,
-        "p75": 110,
-        "n": 14
+        "median": 58,
+        "p25": 50,
+        "p75": 76,
+        "n": 32
       },
       "top_domains": [
         {
-          "domain": "Generalist",
-          "listings": 7
+          "domain": "STEM",
+          "listings": 11
         },
         {
           "domain": "Software Engineering",
-          "listings": 3
+          "listings": 7
         },
         {
-          "domain": "Healthcare",
-          "listings": 1
+          "domain": "Generalist",
+          "listings": 4
         },
         {
-          "domain": "Legal",
-          "listings": 1
+          "domain": "Mathematics",
+          "listings": 2
         },
         {
-          "domain": "Business",
-          "listings": 1
+          "domain": "Design",
+          "listings": 2
         }
       ],
       "trustpilot_organic": {
@@ -2257,6 +2542,8 @@
     {
       "id": "rise-data-labs",
       "name": "Rise Data Labs",
+      "status": "active",
+      "status_since": null,
       "website": "https://risedatalabs.com",
       "operator": null,
       "hq": null,
@@ -2318,6 +2605,8 @@
     {
       "id": "rustlabs-ai",
       "name": "RustLabs AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://rustlabs.ai",
       "operator": null,
       "hq": null,
@@ -2375,6 +2664,8 @@
     {
       "id": "rws",
       "name": "RWS (TrainAI)",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.rws.com",
       "operator": null,
       "hq": null,
@@ -2412,20 +2703,37 @@
         "Work comes as email invitations to projects you're matched to"
       ],
       "listings": {
-        "active": 46,
-        "last_90d": 94,
+        "active": 137,
+        "last_90d": 209,
         "first_seen": "2026-01-19",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
-      "pay_observed_hourly_usd": null,
+      "pay_observed_hourly_usd": {
+        "median": 14,
+        "p25": 9,
+        "p75": 19,
+        "n": 92
+      },
       "top_domains": [
         {
-          "domain": "Data Science",
-          "listings": 25
+          "domain": "Languages",
+          "listings": 79
         },
         {
-          "domain": "Languages",
-          "listings": 21
+          "domain": "Generalist",
+          "listings": 38
+        },
+        {
+          "domain": "Data Science",
+          "listings": 10
+        },
+        {
+          "domain": "Legal",
+          "listings": 9
+        },
+        {
+          "domain": "Business",
+          "listings": 1
         }
       ],
       "trustpilot_organic": null,
@@ -2447,6 +2755,8 @@
     {
       "id": "scale-ai",
       "name": "Scale AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://scale.com",
       "operator": null,
       "hq": "San Francisco, CA",
@@ -2495,6 +2805,8 @@
     {
       "id": "sigma-ai",
       "name": "Sigma AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://sigma.ai",
       "operator": "Sigma Group",
       "hq": null,
@@ -2542,6 +2854,8 @@
     {
       "id": "silencio-ai",
       "name": "Silencio AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.silencio.network/",
       "operator": null,
       "hq": null,
@@ -2590,6 +2904,8 @@
     {
       "id": "sme-careers",
       "name": "SME Careers",
+      "status": "active",
+      "status_since": null,
       "website": "https://sme.careers/",
       "operator": "SuperAnnotate",
       "hq": null,
@@ -2626,32 +2942,32 @@
         "Needs a Deel contract and ID verification before payment"
       ],
       "listings": {
-        "active": 260,
-        "last_90d": 275,
+        "active": 265,
+        "last_90d": 296,
         "first_seen": "2026-03-31",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": null,
       "top_domains": [
         {
           "domain": "QA Testing",
-          "listings": 79
+          "listings": 81
         },
         {
           "domain": "Languages",
-          "listings": 55
+          "listings": 49
         },
         {
           "domain": "Software Engineering",
-          "listings": 42
-        },
-        {
-          "domain": "Generalist",
-          "listings": 24
+          "listings": 40
         },
         {
           "domain": "STEM",
-          "listings": 22
+          "listings": 24
+        },
+        {
+          "domain": "Generalist",
+          "listings": 23
         }
       ],
       "trustpilot_organic": null,
@@ -2675,6 +2991,8 @@
     {
       "id": "snorkel-ai",
       "name": "Snorkel AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://snorkel.ai",
       "operator": null,
       "hq": null,
@@ -2728,6 +3046,8 @@
     {
       "id": "sovrano",
       "name": "Sovrano AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://sovrano.ai",
       "operator": null,
       "hq": "Barcelona, Spain",
@@ -2759,31 +3079,19 @@
         "Most listings are internships asking for a bachelor's or master's"
       ],
       "listings": {
-        "active": 11,
-        "last_90d": 23,
+        "active": 2,
+        "last_90d": 24,
         "first_seen": "2026-09-15",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-10-22"
       },
       "pay_observed_hourly_usd": null,
       "top_domains": [
         {
-          "domain": "Generalist",
-          "listings": 3
-        },
-        {
-          "domain": "Business",
-          "listings": 3
-        },
-        {
-          "domain": "Languages",
-          "listings": 2
-        },
-        {
-          "domain": "Design",
+          "domain": "Writing",
           "listings": 1
         },
         {
-          "domain": "Legal",
+          "domain": "Generalist",
           "listings": 1
         }
       ],
@@ -2804,8 +3112,72 @@
       "last_checked": "2026-09-29"
     },
     {
+      "id": "anyoneai",
+      "name": "AnyoneAI",
+      "status": "active",
+      "status_since": null,
+      "website": "https://jobs.anyoneai.com",
+      "operator": null,
+      "hq": null,
+      "hq_country": null,
+      "founded": null,
+      "headcount": null,
+      "work_types": [],
+      "classification": null,
+      "payout_frequency": null,
+      "payment_methods": [],
+      "eligible_countries": null,
+      "hiring_steps": [],
+      "stated_pay": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "listings": {
+        "active": 202,
+        "last_90d": 202,
+        "first_seen": "2026-10-13",
+        "last_seen": "2026-11-02"
+      },
+      "pay_observed_hourly_usd": {
+        "median": 55,
+        "p25": 40,
+        "p75": 65,
+        "n": 57
+      },
+      "top_domains": [
+        {
+          "domain": "STEM",
+          "listings": 78
+        },
+        {
+          "domain": "Software Engineering",
+          "listings": 76
+        },
+        {
+          "domain": "Mathematics",
+          "listings": 19
+        },
+        {
+          "domain": "Business",
+          "listings": 14
+        },
+        {
+          "domain": "Accounting",
+          "listings": 6
+        }
+      ],
+      "trustpilot_organic": null,
+      "profile_url": "https://aitrainer.work/platforms/anyoneai",
+      "sources": {
+        "website": "https://jobs.anyoneai.com"
+      },
+      "last_checked": "2026-10-13"
+    },
+    {
       "id": "stellar-ai",
       "name": "Stellar AI",
+      "status": "closed",
+      "status_since": "2026-10-12",
       "website": "https://joinstellar.ai",
       "operator": null,
       "hq": null,
@@ -2833,7 +3205,7 @@
         "unit": "per_hour",
         "currency": "USD"
       },
-      "description": "Stellar AI hires contractors to write tasks for AI agents, turn GitHub PRs into coding tasks and draft expert rubrics. It's hourly work with a stated base rate of $25 an hour, and you'll take a skill-match test before joining the annotator pool.",
+      "description": "Stellar AI hired contractors to write tasks for AI agents, turn GitHub PRs into coding tasks and draft expert rubrics, at a stated base rate of $25 an hour after a skill-match test. It closed in October 2026; accounts stay open for balances and payouts.",
       "pros": [
         "States a base rate of $25 an hour",
         "Pays weekly",
@@ -2850,6 +3222,7 @@
       "trustpilot_organic": null,
       "profile_url": null,
       "sources": {
+        "status": "https://joinstellar.ai",
         "website": "https://joinstellar.ai",
         "headcount": "https://www.linkedin.com/company/join-stellar-ai/",
         "work_types": "https://joinstellar.ai",
@@ -2862,11 +3235,13 @@
         "pros": "https://joinstellar.ai",
         "cons": "https://joinstellar.ai"
       },
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-10-12"
     },
     {
       "id": "surge-ai",
       "name": "Surge AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://surgehq.ai",
       "operator": null,
       "hq": null,
@@ -2923,6 +3298,8 @@
     {
       "id": "telus",
       "name": "TELUS Digital AI Community",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.telusdigital.com",
       "operator": null,
       "hq": null,
@@ -2957,39 +3334,13 @@
         "Content can include sensitive or upsetting material"
       ],
       "listings": {
-        "active": 141,
+        "active": 0,
         "last_90d": 150,
         "first_seen": "2026-01-28",
         "last_seen": "2026-09-29"
       },
-      "pay_observed_hourly_usd": {
-        "median": 10,
-        "p25": 8,
-        "p75": 18,
-        "n": 124
-      },
-      "top_domains": [
-        {
-          "domain": "Data Science",
-          "listings": 50
-        },
-        {
-          "domain": "Generalist",
-          "listings": 22
-        },
-        {
-          "domain": "Writing",
-          "listings": 19
-        },
-        {
-          "domain": "Languages",
-          "listings": 13
-        },
-        {
-          "domain": "Software Engineering",
-          "listings": 11
-        }
-      ],
+      "pay_observed_hourly_usd": null,
+      "top_domains": [],
       "trustpilot_organic": null,
       "profile_url": "https://aitrainer.work/platforms/telus-digital-ai-community",
       "sources": {
@@ -3009,6 +3360,8 @@
     {
       "id": "terac",
       "name": "Terac",
+      "status": "active",
+      "status_since": null,
       "website": "https://terac.com",
       "operator": null,
       "hq": null,
@@ -3046,37 +3399,37 @@
         "Payment arrives after the project is completed"
       ],
       "listings": {
-        "active": 21,
-        "last_90d": 30,
+        "active": 38,
+        "last_90d": 44,
         "first_seen": "2026-07-21",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-11-02"
       },
       "pay_observed_hourly_usd": {
-        "median": 75,
-        "p25": 35,
-        "p75": 95,
-        "n": 11
+        "median": 85,
+        "p25": 40,
+        "p75": 100,
+        "n": 17
       },
       "top_domains": [
         {
-          "domain": "Generalist",
-          "listings": 5
+          "domain": "STEM",
+          "listings": 8
         },
         {
-          "domain": "Finance",
-          "listings": 3
+          "domain": "Generalist",
+          "listings": 7
         },
         {
           "domain": "Healthcare",
-          "listings": 3
+          "listings": 6
         },
         {
-          "domain": "Data Science",
-          "listings": 3
+          "domain": "Finance",
+          "listings": 4
         },
         {
-          "domain": "Business",
-          "listings": 2
+          "domain": "Accounting",
+          "listings": 3
         }
       ],
       "trustpilot_organic": {
@@ -3107,6 +3460,8 @@
     {
       "id": "transperfect",
       "name": "TransPerfect",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.transperfect.com",
       "operator": null,
       "hq": null,
@@ -3165,6 +3520,8 @@
     {
       "id": "turing",
       "name": "Turing",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.turing.com",
       "operator": null,
       "hq": "San Francisco, CA",
@@ -3197,32 +3554,32 @@
         "As a contractor you handle your own taxes"
       ],
       "listings": {
-        "active": 359,
-        "last_90d": 474,
+        "active": 378,
+        "last_90d": 493,
         "first_seen": "2026-03-10",
-        "last_seen": "2026-09-28"
+        "last_seen": "2026-11-01"
       },
       "pay_observed_hourly_usd": null,
       "top_domains": [
         {
           "domain": "Software Engineering",
-          "listings": 95
+          "listings": 99
         },
         {
           "domain": "Business",
-          "listings": 60
+          "listings": 64
         },
         {
           "domain": "Generalist",
-          "listings": 55
+          "listings": 59
         },
         {
           "domain": "STEM",
-          "listings": 53
+          "listings": 55
         },
         {
           "domain": "Healthcare",
-          "listings": 14
+          "listings": 15
         }
       ],
       "trustpilot_organic": null,
@@ -3245,6 +3602,8 @@
     {
       "id": "uber-ai-solutions",
       "name": "Uber AI Solutions",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.uber.com/us/en/ai-solutions/",
       "operator": "Uber",
       "hq": null,
@@ -3306,6 +3665,8 @@
     {
       "id": "verita-ai",
       "name": "Verita AI",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.verita-ai.com",
       "operator": null,
       "hq": "San Francisco, CA",
@@ -3361,6 +3722,8 @@
     {
       "id": "vetto",
       "name": "Vetto",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.vetto.ai",
       "operator": null,
       "hq": null,
@@ -3397,23 +3760,36 @@
         "Paid per approved task"
       ],
       "listings": {
-        "active": 4,
-        "last_90d": 9,
+        "active": 10,
+        "last_90d": 18,
         "first_seen": "2026-03-26",
-        "last_seen": "2026-09-27"
+        "last_seen": "2026-11-02"
       },
-      "pay_observed_hourly_usd": null,
+      "pay_observed_hourly_usd": {
+        "median": 53,
+        "p25": 33,
+        "p75": 62,
+        "n": 10
+      },
       "top_domains": [
         {
-          "domain": "Software Engineering",
-          "listings": 2
+          "domain": "Business",
+          "listings": 3
         },
         {
-          "domain": "Languages",
-          "listings": 1
+          "domain": "Software Engineering",
+          "listings": 3
         },
         {
           "domain": "Generalist",
+          "listings": 2
+        },
+        {
+          "domain": "Legal",
+          "listings": 1
+        },
+        {
+          "domain": "Humanities",
           "listings": 1
         }
       ],
@@ -3436,6 +3812,8 @@
     {
       "id": "welocalize",
       "name": "Welocalize",
+      "status": "active",
+      "status_since": null,
       "website": "https://www.welocalize.com",
       "operator": null,
       "hq": "New York, NY",
@@ -3497,6 +3875,8 @@
     {
       "id": "workada",
       "name": "Workada",
+      "status": "active",
+      "status_since": null,
       "website": "https://workada.com",
       "operator": null,
       "hq": null,
@@ -3561,6 +3941,8 @@
     {
       "id": "workbolt",
       "name": "Workbolt",
+      "status": "active",
+      "status_since": null,
       "website": "https://workbolt.ai",
       "operator": "Ocular AI, Inc.",
       "hq": "San Francisco, CA",
