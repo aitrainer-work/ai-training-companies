@@ -78,7 +78,7 @@ Each record has two kinds of fields.
 
 ## Updates
 
-A new release is published each month. Each release is archived on Zenodo as a new version under one DOI, which always resolves to the latest version.
+A new release is published each month. Each release is archived on Zenodo as a new version under one DOI, which always resolves to the latest version. Each release is also a tagged commit on [DoltHub](https://www.dolthub.com/repositories/aitrainer-work/ai-training-companies), where you can query the table in SQL and diff any two months.
 
 ## Citation
 
